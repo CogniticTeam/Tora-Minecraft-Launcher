@@ -35,8 +35,8 @@ npm run package:mac
 
 ## 在线服务
 
-- 自有 API、设备会话、社区与 WebSocket 信令：`https://154.8.230.216`，运行于用户中国服务器。
-- 自有 STUN：`154.8.230.216:3478`（UDP），只做地址发现；没有匿名 TURN 中继。
+- 自有 API、设备会话、社区与 WebSocket 信令由自托管服务提供。
+- 自有 STUN 服务仅提供 UDP 地址发现，没有匿名 TURN 中继。
 - 账号和会话使用 SQLite 持久化，DPoP 防重放与社区 ES256 签名保持兼容；论坛正文沿用原 Python 数据库。两个数据库分别自动备份。
 - 旧 `launcher-api`、`launcher-signal`、`community-api.cogniticteam.com` 域名保留兼容转发；新客户端直连服务器。旧版 WebSocket 入口提示更新。
 - Agent 与旧 AI 网关已停用。Minecraft Together、新闻轮播、云备份、对象存储及付费套餐入口不再提供。
