@@ -1,0 +1,12 @@
+.env
+*.exe
+node_modules
+*.js
+!admin/*.js
+*.js.map
+apps/.dev.vars
+data/*
+.translation-azure-migration-state.json
+
+.secrets/
+.tora-state/

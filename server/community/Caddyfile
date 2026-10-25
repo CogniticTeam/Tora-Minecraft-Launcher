@@ -1,0 +1,39 @@
+{
+    admin off
+    auto_https disable_redirects
+    default_sni 154.8.230.216
+    servers {
+        protocols h1 h2
+    }
+}
+https://154.8.230.216 {
+    tls {
+        issuer acme https://acme-v02.api.letsencrypt.org/directory {
+            profile shortlived
+        }
+    }
+    @community path /health /v1/community /v1/community/* /internal/minecraft/profile
+    handle @community {
+        request_body {
+            max_size 96KB
+        }
+        reverse_proxy 127.0.0.1:8765
+    }
+    handle {
+        respond "Not found" 404
+    }
+}
+
+# Activate after the DNS-only A record points to this community server.
+community-origin.cogniticteam.com {
+    @community path /health /v1/community /v1/community/* /internal/minecraft/profile
+    handle @community {
+        request_body {
+            max_size 96KB
+        }
+        reverse_proxy 127.0.0.1:8765
+    }
+    handle {
+        respond "Not found" 404
+    }
+}

@@ -1,0 +1,3 @@
+import {describe,it,expect} from 'vitest'
+import {diagnoseLaunchLog} from './instanceDiagnosis'
+describe('local diagnosis',()=>{it('distinguishes Java, memory and dependency failures',()=>{expect(diagnoseLaunchLog('java.lang.UnsupportedClassVersionError: class file version 65.0')[0].action).toBe('java');expect(diagnoseLaunchLog('java.lang.OutOfMemoryError: Java heap space')[0].action).toBe('memory');expect(diagnoseLaunchLog('Missing mandatory dependencies: fabric-api')[0].action).toBe('mods')});it('does not claim to diagnose an unknown crash',()=>expect(diagnoseLaunchLog('generic process exited 1')).toEqual([]))})

@@ -1,0 +1,23 @@
+name = "tora-launcher-community"
+account_id = "22ec4cb4ad938c630e02a997e7d9b62d"
+main = "../../tora/communityGateway.ts"
+compatibility_date = "2026-07-01"
+workers_dev = false
+
+[[routes]]
+pattern = "community-api.cogniticteam.com"
+custom_domain = true
+
+[vars]
+TORA_SELFHOST_ORIGIN = "https://154.8.230.216"
+COMMUNITY_ORIGIN = "https://community-origin.cogniticteam.com"
+
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "53005"
+simple = { limit = 120, period = 60 }
+
+[[ratelimits]]
+name = "WRITE_LIMITER"
+namespace_id = "53006"
+simple = { limit = 30, period = 60 }

@@ -1,0 +1,44 @@
+name = "tora-launcher-signaling"
+account_id = "22ec4cb4ad938c630e02a997e7d9b62d"
+main = "../../tora/signaling.ts"
+compatibility_date = "2026-07-01"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[[routes]]
+pattern = "launcher-signal.cogniticteam.com"
+custom_domain = true
+
+[observability.logs]
+enabled = true
+invocation_logs = false
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "f3bca51d4d1e4f19ae122840654720a0"
+
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "53001"
+simple = { limit = 120, period = 60 }
+
+[[durable_objects.bindings]]
+name = "DPOP_REPLAY"
+class_name = "DpopReplayObject"
+script_name = "tora-launcher-api"
+
+[[durable_objects.bindings]]
+name = "MULTIPLAYER_ROOMS"
+class_name = "MultiplayerRoomObject"
+
+[[ratelimits]]
+name = "MULTIPLAYER_TELEMETRY_RATE_LIMITER"
+namespace_id = "53003"
+simple = { limit = 120, period = 60 }
+
+[[migrations]]
+tag = "tora-v1"
+new_sqlite_classes = ["MultiplayerRoomObject"]
+
+[vars]
+TORA_SELFHOST_ORIGIN = "https://154.8.230.216"

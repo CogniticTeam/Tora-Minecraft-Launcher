@@ -1,0 +1,165 @@
+{
+  "retrieved": "2026-10-25",
+  "icons": [
+    {
+      "id": "mcmod",
+      "site": "https://www.mcmod.cn",
+      "file": "mcmod.ico",
+      "source": "https://www.mcmod.cn/images/favicon.ico",
+      "sha256": "5fc5c11de638f287e73354991bb517e6eef0c2270f299e208bb07d534ca4d2c9"
+    },
+    {
+      "id": "chunkbase",
+      "site": "https://www.chunkbase.com",
+      "file": "chunkbase.png",
+      "source": "https://www.chunkbase.com/favicon-96x96.png?v=20260823",
+      "sha256": "435ceba4c7edb43d87f5f05a6125a802fd69113190178c1b4ff0e57ce8d7b0b1"
+    },
+    {
+      "id": "ezseed",
+      "site": "https://ezseed.net",
+      "file": "ezseed.ico",
+      "source": "https://ezseed.net/favicon.ico",
+      "sha256": "9c2f08d3e2a0565a5bb04bbaf32ab4617323b9f3ef46e4085b9f144cf53506dc"
+    },
+    {
+      "id": "chunkseed",
+      "site": "https://chunkseed.com/zh-cn",
+      "file": "chunkseed.png",
+      "source": "https://chunkseed.com/favicon.png",
+      "sha256": "3a140907eaf3a573e3c317c8a56c6da3b62e746ba3f063e92fc65fce5de86c0f"
+    },
+    {
+      "id": "mcseedmap",
+      "site": "https://mcseedmap.com/zh-cn",
+      "file": "mcseedmap.png",
+      "source": "https://mcseedmap.com/favicon.png",
+      "sha256": "0be2bd9d3b1b9c8131ccc616260662e62dcc24a2454b434bd43c6dacb887ab3a"
+    },
+    {
+      "id": "minecraft-tools",
+      "site": "https://minecrafttools.wiki",
+      "file": "minecraft-tools.png",
+      "source": "https://minecrafttools.wiki/icon1.png?c1bfe7f63e44e020",
+      "sha256": "3ff2d87340d916b1cd024f2c4a8b2aab1178f3ce8bea95eb424a1278674feb9c"
+    },
+    {
+      "id": "seedlander",
+      "site": "https://www.seedlander.com",
+      "file": "seedlander.png",
+      "source": "https://www.seedlander.com/favicon.png",
+      "sha256": "15605a0138a864b7c2fa5fa11cadc8d533e18f2c48bddab4fbad94b207bcbada"
+    },
+    {
+      "id": "minecraft-wiki",
+      "site": "https://minecraft.wiki",
+      "file": "minecraft-wiki.ico",
+      "source": "https://icons.duckduckgo.com/ip3/minecraft.wiki.ico",
+      "sha256": "eaac754dc6b8a39c0068dc9dd3bbd7dd3e3ad6f47e2a20dd8ede3a36a8409477"
+    },
+    {
+      "id": "modrinth",
+      "site": "https://modrinth.com",
+      "file": "modrinth.png",
+      "source": "https://modrinth.com/favicon-light-32x32.png",
+      "sha256": "893398804334d69eb89d0d3748a454e6ea530df62cf1894b4f50535dc4a4ae86"
+    },
+    {
+      "id": "mcpedl",
+      "site": "https://mcpedl.org",
+      "file": "mcpedl.png",
+      "source": "https://mcpedl.org/wp-content/uploads/2024/11/cropped-favicon-new-32x32.png",
+      "sha256": "80e2b3e7c3b3dfd63119617de0116a157c6ba8e0356169df36f83495191657a5"
+    },
+    {
+      "id": "9minecraft",
+      "site": "https://www.9minecraft.net",
+      "file": "9minecraft.ico",
+      "source": "https://www.9minecraft.net/favicon.ico?v=261015",
+      "sha256": "97e18d45efd6066ef5758e5b797918ea45f421b549f218e2d87b5c9d49cba558"
+    },
+    {
+      "id": "resourcepack",
+      "site": "https://resourcepack.net",
+      "file": "resourcepack.png",
+      "source": "https://resourcepack.net/wp-content/themes/rp/favicon.ico",
+      "sha256": "34d68ce251db7354117e3d90177bbdcc073bc8641e99a094a331efa5c2197bee"
+    },
+    {
+      "id": "namemc",
+      "site": "https://namemc.com",
+      "file": "namemc.ico",
+      "source": "https://namemc.com/favicon.ico",
+      "sha256": "4be319c2a1b30df6f321e813430103a2cb6a73e7b4cef5faa9cc61969042e874"
+    },
+    {
+      "id": "planet-minecraft",
+      "site": "https://www.planetminecraft.com",
+      "file": "planet-minecraft.png",
+      "source": "https://icons.duckduckgo.com/ip3/www.planetminecraft.com.ico",
+      "sha256": "440dc28514459bc0c48f1c22ac3380287d0db50c1d2b31664cded4b66be7eb0d"
+    },
+    {
+      "id": "klpbbs",
+      "site": "https://klpbbs.com",
+      "file": "klpbbs.png",
+      "source": "https://klpbbs.com/favicon.ico",
+      "sha256": "660255bbfd7481a0bd1c9ad2837d269de3cbcf9eb41fb0692b5c411dc1ffb6bf"
+    },
+    {
+      "id": "shadersmods",
+      "site": "https://shadersmods.com/category/shaderpacks",
+      "file": "shadersmods.ico",
+      "source": "https://shadersmods.com/favicon.ico",
+      "sha256": "fd9b981a6b0ffa3f9f3542eb01d80cbf355ec30736c6dc2335dea5c2effb4caf"
+    },
+    {
+      "id": "mclogs",
+      "site": "https://mclo.gs",
+      "file": "mclogs.ico",
+      "source": "https://mclo.gs/img/favicon.ico",
+      "sha256": "961a0a7d6c404507a7d6d3f4d320f844774421b1a2562be907c5ef1ced5db89e"
+    },
+    {
+      "id": "minotar",
+      "site": "https://minotar.net",
+      "file": "minotar.png",
+      "source": "https://minotar.net/avatar/d9135e082f2244c89cb0bee234155292/128",
+      "sha256": "0705eee7a5eace76b3e2b5fa53baf72503d872014664963187b0cc84d5e939c1"
+    },
+    {
+      "id": "aternos",
+      "site": "https://aternos.org",
+      "file": "aternos.ico",
+      "source": "https://static.aternos.org/front/aternos/images/favicon.ico",
+      "sha256": "2a1ae084660b2e98f9553fa2e237859135f681d25565931cd24c660f305c7abb"
+    },
+    {
+      "id": "fabric",
+      "site": "https://fabricmc.net",
+      "file": "fabric.png",
+      "source": "https://fabricmc.net/assets/favicon.png",
+      "sha256": "73b26652c703c63978392f348cb8aec97021f48a66e16582bade150bf742aed0"
+    },
+    {
+      "id": "neoforge",
+      "site": "https://neoforged.net",
+      "file": "neoforge.ico",
+      "source": "https://neoforged.net/favicon.ico",
+      "sha256": "3a948e038a59f5b452093f5f82f1b2cf9913d6e44eb8d27e1bbeb841d597a538"
+    },
+    {
+      "id": "optifine",
+      "site": "https://optifine.net",
+      "file": "optifine.png",
+      "source": "https://optifine.net/images/of16r.png",
+      "sha256": "915ed134630e3c2fb2c1bbd53be4e6d789722f3fe9b3125805bfe7e6ab86089d"
+    },
+    {
+      "id": "curseforge",
+      "component": "../../components/CurseforgeIcon.vue",
+      "source": "Existing launcher CurseforgeIcon component"
+    }
+  ],
+  "fallbacks": []
+}

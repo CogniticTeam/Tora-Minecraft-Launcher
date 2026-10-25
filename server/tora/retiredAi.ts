@@ -1,0 +1,1 @@
+export default {fetch(request:Request){return Response.json({service:'tora-launcher-ai',status:'retired',error:'agent_removed',message:'启动器 Agent 功能已移除。'},{status:new URL(request.url).pathname==='/health'?200:410,headers:{'Cache-Control':'no-store'}})}};

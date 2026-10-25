@@ -1,0 +1,17 @@
+[Unit]
+Description=Consistent TORA community database backup
+After=tora-community.service
+
+[Service]
+Type=oneshot
+User=tora-community
+Group=tora-community
+ExecStart=/opt/tora-community/venv/bin/python -B /opt/tora-community/backup.py
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+# SQLite opens the source read-only, but may need to create its WAL shared-memory sidecar.
+ReadWritePaths=/var/lib/tora-community /var/backups/tora-community
+UMask=0077
+MemoryMax=256M

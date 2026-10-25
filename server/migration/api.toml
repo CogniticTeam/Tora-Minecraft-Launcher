@@ -1,0 +1,48 @@
+name = "tora-launcher-api"
+account_id = "22ec4cb4ad938c630e02a997e7d9b62d"
+main = "./export-api.ts"
+compatibility_date = "2026-07-01"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[[routes]]
+pattern = "launcher-api.cogniticteam.com"
+custom_domain = true
+
+[observability.logs]
+enabled = true
+invocation_logs = false
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "f3bca51d4d1e4f19ae122840654720a0"
+
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "53001"
+simple = { limit = 120, period = 60 }
+
+[[durable_objects.bindings]]
+name = "DPOP_REPLAY"
+class_name = "DpopReplayObject"
+
+[[durable_objects.bindings]]
+name = "ACCOUNTS"
+class_name = "ToraAccountObject"
+
+[[migrations]]
+tag = "tora-v1"
+new_sqlite_classes = ["ToraAccountObject", "DpopReplayObject"]
+
+[[ratelimits]]
+name = "REGISTRATION_LIMITER"
+namespace_id = "53004"
+simple = { limit = 5, period = 60 }
+
+[vars]
+TORA_MIGRATION_DEADLINE = "1792841071736"
+TORA_MIGRATION_FREEZE = "1"
+
+# Public client ID, shared with the desktop application (not a secret).
+TORA_MICROSOFT_CLIENT_ID = "1710c023-af88-403a-bcc3-59e0dda23f09"
+

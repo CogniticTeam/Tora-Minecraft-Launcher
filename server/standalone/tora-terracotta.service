@@ -1,0 +1,28 @@
+[Unit]
+Description=TMCL Terracotta compatible EasyTier node
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=tora-terracotta
+Group=tora-terracotta
+StateDirectory=tora-terracotta
+StateDirectoryMode=0700
+WorkingDirectory=/var/lib/tora-terracotta
+ExecStart=/opt/tora-platform/components/easytier-core --no-tun --network-name tmcl-public-node --network-secret tmcl-public-node --hostname TMCL-China --listeners ws://127.0.0.1:11011 --relay-network-whitelist scaffolding-mc-* --rpc-portal 127.0.0.1:15889
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+MemoryMax=256M
+CPUQuota=75%
+TasksMax=96
+LimitNOFILE=2048
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

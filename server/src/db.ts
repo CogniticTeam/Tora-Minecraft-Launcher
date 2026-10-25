@@ -1,0 +1,41 @@
+// deno-lint-ignore-file no-explicit-any
+import type { AppConfig } from "./config.ts";
+
+/** The subset of the native MongoDB collection API the routes rely on. */
+export interface MongoCollection {
+  createIndex?(
+    keys: Record<string, 1 | -1>,
+    options?: { expireAfterSeconds?: number; name?: string; sparse?: boolean },
+  ): Promise<unknown>;
+  findOne(filter: Record<string, unknown>): Promise<any>;
+  findOneAndUpdate(
+    filter: Record<string, unknown>,
+    update: Record<string, unknown>,
+    options?: {
+      sort?: Record<string, 1 | -1>;
+      returnDocument?: "before" | "after";
+    },
+  ): Promise<any>;
+  updateOne(
+    filter: Record<string, unknown>,
+    update: Record<string, unknown>,
+    options?: { upsert?: boolean },
+  ): Promise<unknown>;
+  replaceOne(
+    filter: Record<string, unknown>,
+    replacement: Record<string, unknown>,
+    options?: { upsert?: boolean },
+  ): Promise<unknown>;
+  deleteOne(filter: Record<string, unknown>): Promise<unknown>;
+  insertOne?(document: Record<string, unknown>): Promise<unknown>;
+}
+
+export interface Db {
+  collection(name: string): MongoCollection;
+}
+
+/**
+ * Factory type for creating a Db connection. Each platform provides its own
+ * implementation and injects it via middleware.
+ */
+export type DbFactory = (config: AppConfig) => Promise<Db>;

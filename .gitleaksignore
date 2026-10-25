@@ -1,0 +1,13 @@
+# Reviewed non-secret matches only. Do not add real credentials here.
+
+# Fixed idempotency identifier in a synthetic account test fixture.
+server/src/account.fixtures.ts:generic-api-key:79
+
+# PEM header formatting code; no private key bytes are present.
+server/src/waffo.ts:private-key:54
+
+# Public Forge Maven artifact coordinate in an upstream mock version.
+xmcl/mock/versions/1.14.4-forge-28.0.47/1.14.4-forge-28.0.47.json:generic-api-key:98
+
+# Public anonymous McSTools search CSRF value; not an authenticated account credential.
+xmcl/xmcl-runtime/market/BlueprintMarketService.ts:generic-api-key:96

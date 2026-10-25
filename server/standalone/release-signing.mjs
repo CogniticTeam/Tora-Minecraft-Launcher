@@ -1,0 +1,3 @@
+import {createPrivateKey,createPublicKey,createHash,sign} from 'node:crypto';
+export function releasePayload(version,channel,file){return JSON.stringify({schema:1,version,channel,platform:file.platform,arch:file.arch,kind:file.kind,name:file.name,size:file.size,sha256:file.sha256,url:file.url});}
+export function signReleaseFile(key,version,channel,file){if(!key)return file;const privateKey=createPrivateKey(key);if(privateKey.asymmetricKeyType!=='ed25519')throw new Error('invalid_release_signing_key');const pub=createPublicKey(privateKey).export({type:'spki',format:'pem'}).toString();return {...file,signature:sign(null,Buffer.from(releasePayload(version,channel,file)),privateKey).toString('base64'),keyId:createHash('sha256').update(pub).digest('hex').slice(0,16)};}

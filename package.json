@@ -1,0 +1,19 @@
+{
+  "name": "tora-minecraft-launcher",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "description": "TORA Minecraft Launcher — 基于 XMCL 原版界面与运行时",
+  "scripts": {
+    "setup": "pnpm --dir xmcl install --frozen-lockfile",
+    "dev": "node scripts/tora.mjs dev",
+    "dev:renderer": "pnpm --dir xmcl dev:renderer",
+    "dev:main": "pnpm --dir xmcl dev:main",
+    "build": "node scripts/tora.mjs build",
+    "start": "node scripts/tora.mjs start",
+    "package:mac": "pnpm --dir xmcl/xmcl-electron-app run build:tora:mac",
+    "check": "pnpm --dir xmcl check",
+    "verify:ui-source": "node scripts/verify-ui-source.mjs"
+  }
+}

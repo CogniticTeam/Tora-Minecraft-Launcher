@@ -1,0 +1,30 @@
+[Unit]
+Description=TORA community API (community only)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=tora-community
+Group=tora-community
+WorkingDirectory=/opt/tora-community
+EnvironmentFile=/etc/tora-community/gateway.env
+EnvironmentFile=/etc/tora-community/forum.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/opt/tora-community/venv/bin/uvicorn app:production --factory --host 127.0.0.1 --port 8765 --workers 1 --limit-concurrency 64 --backlog 128 --timeout-keep-alive 5 --no-access-log --no-server-header
+StateDirectory=tora-community
+StateDirectoryMode=0700
+UMask=0077
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+MemoryHigh=512M
+MemoryMax=1G
+TasksMax=64
+CPUQuota=100%
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,33 @@
+[Unit]
+Description=TORA launcher account, community gateway and signaling
+After=network-online.target tora-community.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=tora-platform
+Group=tora-platform
+WorkingDirectory=/opt/tora-platform
+LoadCredential=secrets.json:/etc/tora-platform/secrets.json
+Environment=TORA_SECRETS_FILE=%d/secrets.json
+Environment=TORA_DATABASE=/var/lib/tora-platform/platform.sqlite3
+Environment=TORA_PUBLIC_ORIGIN=https://154.8.230.216
+Environment=TORA_SOURCE_ARCHIVE=/opt/tora-platform/source.tar.gz
+Environment=PORT=8770
+ExecStart=/opt/tora-platform/node/bin/node --max-old-space-size=256 --dns-result-order=ipv4first /opt/tora-platform/platform.mjs
+Restart=on-failure
+RestartSec=3
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/tora-platform
+MemoryHigh=384M
+MemoryMax=512M
+CPUQuota=100%
+TasksMax=64
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target

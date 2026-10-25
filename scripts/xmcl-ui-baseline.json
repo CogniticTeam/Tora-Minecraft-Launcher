@@ -1,0 +1,2069 @@
+{
+  "upstream": "https://github.com/Voxelum/x-minecraft-launcher",
+  "commit": "b64e90f69bda9c4c049af27c63c488489784c72c",
+  "files": [
+    {
+      "path": "src/assets/common.css",
+      "sha256": "99ab4239028b906aca1110dcb5d9d276c32b12cbb2d33441cc0512dac25562ac",
+      "stylesSha256": null,
+      "brandingOnly": false,
+      "approvedSha256": "85c60a881a9e78a3ab0d8e30356da0c26edbd3ee461d0af7eabfb8d102918de8",
+      "approvedReason": "用户要求与 XMCL 形成视觉差别但保留布局；优化启动区、状态信息、卡片材质和标题层级。"
+    },
+    {
+      "path": "src/assets/driver.css",
+      "sha256": "e65eed86d668c3759a91ebc7821e63b72c8e21a7ccc14b8eb681eebba7bd815b",
+      "stylesSha256": null,
+      "brandingOnly": false
+    },
+    {
+      "path": "src/assets/google.font.css",
+      "sha256": "8fad557069824aa3c580e083de4ac31c6782307b464e097e1b3cd578d866f36d",
+      "stylesSha256": null,
+      "brandingOnly": false,
+      "approvedSha256": "723e8f4da6552b483f6245c5876a99c969a33f5d0271eaac7ba011af2e22f439",
+      "approvedReason": "所有窗口文字统一使用系统字体，保留图标字形资源"
+    },
+    {
+      "path": "src/assets/preload.css",
+      "sha256": "08f28c9346ea53e07ee973361aa87e939f6be488e0aa926c3010bc83612d257d",
+      "stylesSha256": null,
+      "brandingOnly": false
+    },
+    {
+      "path": "src/assets/scroll.css",
+      "sha256": "558fb3009671312f6652f66d7b504d9b78178711e299fb31fa9c041a811b3e98",
+      "stylesSha256": null,
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AgentMarketList.vue",
+      "sha256": "9c85ab1109d9ad71cc15d0c8dd9d1c4ca5c8569ead935f248152fd04e95f69cb",
+      "stylesSha256": "6c44d43f04496f50ff93a194452a05701d94eb829e70b612aa1ccf675539091c",
+      "brandingOnly": false,
+      "approvedSha256": "0356e4c60d9fbaf06a0495646a1a10bb22032b6423b7dc5f309a28b5fa309225",
+      "approvedReason": "用户要求移除整合包市场：导航入口、市场路由、大屏整合包浏览及详情入口；保留现有实例与本地导入。"
+    },
+    {
+      "path": "src/components/AgentPassiveEventCard.vue",
+      "sha256": "5789ae91fc8ba919deeb503ab6cece4778beb0e5e788b1e37b496b25ab8309a2",
+      "stylesSha256": "b4ed0487320777a8a4ff774d58f865a32e2153cf8e664623c944743c2c4ee647",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AgentToolCall.vue",
+      "sha256": "58eeb13ef5e46d9b6c883c15b8cf5b079156659e6ffdb8420ba39b12d029446b",
+      "stylesSha256": "13b5313f82de2ab4c23ed937d854ae5a4db96fa863dcb7de4bc3473ec16b1f29",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppAudioPlayer.vue",
+      "sha256": "22824f6bddd63f127db7394fe27728c218f23652f7faebf3dd4b779863c2cf5e",
+      "stylesSha256": "8127480fc3436b2b833a2264a15f67ef7792b54a80d07e742625dcbeb1277e74",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppChangeInstanceIconCard.vue",
+      "sha256": "5b00852b5ef134e42f1d9421a09e8dac6d67d0b9cde137f7eb23b4e6327e85ca",
+      "stylesSha256": "4ded2a952f728186a3da8c12cf3359b191a9a9658ab8c1150c78617ba34dac00",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppCollectionInstallAll.vue",
+      "sha256": "ca0957d45e16bc21afc0d49a4b6c6bc4f76165f0c5e0df0e75fc0f411f692593",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppCollectionList.vue",
+      "sha256": "c00fcce0b2599ea169714ca61a60271dc9f116ed7410538058307d64636e58d6",
+      "stylesSha256": "0b4585a69af756a0a68411a1e9c1926777097108024911bd981f53624e572970",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppCopyChip.vue",
+      "sha256": "cc7b3a6fb549279bac69660522f77eb96eb25e490950221480f13340c4528c19",
+      "stylesSha256": "bcfd258906603cdd270e8c2cac0b309eb4ae1e808d585985f6f8e24b96874717",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppCrashAIHint.vue",
+      "sha256": "727ae8181f879fe1530857d08d8abc84a5e773589fe1413e0351775dfcc96af8",
+      "stylesSha256": "36d80e70a2910e91f6a56885b282ee1a72d5f4713936d5dfd6da335dfca19ff7",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppImageControls.vue",
+      "sha256": "bf344fd2c28a4164419f5b23a44af82126fa326f700b517db35371b9741e666e",
+      "stylesSha256": "e5c96a7357ee3d838bf6653e5c90eb1ae5279b5bb6c330a651af83a11cceca63",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppImageDialog.vue",
+      "sha256": "f32a6dffdde9802cb48357fd82d845e8169ad0d74ec50f9e454cb54cc2179487",
+      "stylesSha256": "987d119bd6ead28ed50d3553333824153bc7ef7df2733e3f46df74fea30d4a49",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppLoadingCircular.vue",
+      "sha256": "7dc9f079459dedce355452bc427a30e522a415a064cf411b422ad48dedbaf633",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppLocalCollectionList.vue",
+      "sha256": "c4b33462251d4dbe6aec4855659b298bb56b4e733b29d9dab343b621d7df605c",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppMoodBackground.vue",
+      "sha256": "394533d27c15cbd564fd58c4dcf4246927d95e5073ea7b54e1e388967ddf4bf8",
+      "stylesSha256": "ce1c94501a11061e7e554dd2c8bda695ec80178aeb552291d585e7936801218e",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppMoodSurface.vue",
+      "sha256": "400aac94e867370238c7ada72036cdcf7146987604fa55c7988665ab1d1ba8f8",
+      "stylesSha256": "5ff0c12dead604dc9b4fc49ae0121cf36c2d5bfa0397ebf7c9adb5bbb5df32d6",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppSharedTooltip.vue",
+      "sha256": "2aca2391e687a6bc095c262f3bbfc2b2de3dc86f31fa692d0f99febe598eb62b",
+      "stylesSha256": "30417b14ba0e586b1e311951a7d1988c581c271ae913012207c90692ce5853d2",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppSystemBarBadge.vue",
+      "sha256": "0da7d1c19c399ad31130522be03aa56df832e9f29a582ccc700da2a85a166791",
+      "stylesSha256": "cec674093d1ac71ac0ccd30dd9bca6e30b54cc7c5a84e9da99888e084cb5ea4c",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AppearanceItems.vue",
+      "sha256": "ed82b958916b571c1c39f2696277875af70453e1fc18acbdeb8c0238414731fa",
+      "stylesSha256": "fd531659ee0018c813a3d2f63973134b59b85eb7f995b31d2d3473a12f610535",
+      "brandingOnly": false,
+      "approvedSha256": "80e0cd83128303aba4758f372974c2540ca229c5db6fe7c727a72ae34812fb2f",
+      "approvedReason": "系统字体固定，仅保留字号调节"
+    },
+    {
+      "path": "src/components/AvatarChip.vue",
+      "sha256": "290532331e85fedf7d0f19fc5135c517e7c253bdb5c6621cef347340317b24d8",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AvatarItem.vue",
+      "sha256": "4fb378dc89dba575a41d862689745a3ed019a8ded77cf4bd1a7fff4ca4bfd0ea",
+      "stylesSha256": "73387a7c481354f0255571c0ccf2c20da819f420230199bb8c3732cf992c460d",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/AvatarItemList.vue",
+      "sha256": "e07126054b9df6ad80f32bc8b1b842ec859354c09fb5521729047f6c0075b3f3",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/BaseSettingGlobalLabel.vue",
+      "sha256": "d1ff6ef757bb15b9bc4a8abefc68e3551629a11c8950e9363681f44b290b2e5b",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/BaseSettingModrinthProjectCard.vue",
+      "sha256": "efd44d28cad08ae240c261ccc6312d6d28bbfd4ce4a132295c1d760e2eb8c297",
+      "stylesSha256": "d2a80513c46fa24ac99bcb605b925cdb894ed9b32d340a1c26d3e6bed7a0abb7",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/CategoryChip.vue",
+      "sha256": "ba0861f721534992839193d6a1ae32e76607eda5613580d4a55c4c2bb2f3e83d",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/CurseforgeCategoryChip.vue",
+      "sha256": "39fc13f19a7e6e6e503c24bfd27ce3871a01b80891fa288423908b19bf099495",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/CurseforgeIcon.vue",
+      "sha256": "3fa57a6565a3a57827d8487511cfd78a048cd92797246f1c4f67c7c1a0172667",
+      "stylesSha256": "76e3a379863b8163655f0f6dc5f3960e7d3c033369aa5f546f434e55c94deb97",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/CustomCssEditor.vue",
+      "sha256": "4accef9d96dd17b7bc599f4de7e3a95055c902554578b8d08d80e80b6b82aa7e",
+      "stylesSha256": "3cfb0382bcb3e3968484a162f3a1426c1e09251a6b72bab419fcd02444cb2b11",
+      "brandingOnly": false,
+      "approvedSha256": "20fb6eafe319ff9c6b852be8d3939a2a110213abc15dc936ef389473cfc583eb",
+      "approvedReason": "代码编辑器使用系统等宽字体",
+      "approvedStylesSha256": "e8ea385b52f80ddb0d8fe9d8455081201146218e898347a0a2dc1e5f1ef7049c"
+    },
+    {
+      "path": "src/components/DiscordIcon.vue",
+      "sha256": "0dd21286feaea30d582d37149c5ed57b93557e2f01e2122947c810ea4f497629",
+      "stylesSha256": "1e8c23d6ab19ccb08f26186e65829ce3ba2bc63c79bf02f405f85054db917d66",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/EnvVarAddItem.vue",
+      "sha256": "e4db627d7176d88efee9c9dbcfbaf70efe6858873299121d17614b38524ab945",
+      "stylesSha256": "aa839bb05ce60e8c6ce6ed6d5b25ae76b55dc23dc887416c89859e705cae247b",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/EnvVarTableItem.vue",
+      "sha256": "103bef2d589c1de5564b6c6e755cd661ef296b34a440b1097da8d0f6bb86f1d9",
+      "stylesSha256": "ae16a68cafdbf9b506aa9b2e987ea2c4a7ca316e4ddbb52f0d7138f00bd29bfe",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/ErrorView.vue",
+      "sha256": "c5444f905a1246089782d6515068df03d4db2feb0495e4869f31545a13b172b6",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/FTBIcon.vue",
+      "sha256": "cd6260f0e1760364d66eae9e03b54b778c4e11846dd00991c9b4ccfebe8f85da",
+      "stylesSha256": "dab54f500e828d6e8b7802a5dff73e998a64f2e6a85c64c3b64796cd0e33bb9b",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/FeedbackCard.vue",
+      "sha256": "49467b650c628bd3521426899f5aec8282820175c26eb427b9c8f1c6fdaf19a6",
+      "stylesSha256": "5a4a21f67242b9dab7c11a5683320e028ab7f7a03f63b14a3b63e1dce59e03ea",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/FilterCard.vue",
+      "sha256": "09dd2a7d3857176ae428fe7c85dbedf006b87da7465fbf1c8c3b9f4d188d16b8",
+      "stylesSha256": "f10ed67c64dfa43e119a9b0753450b0f39eba046e9309fb3d408ffea8f9f809a",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/GithubIcon.vue",
+      "sha256": "80da67c93a85ab75138d9be55f85e158f9412cce724b5d380840e18926aedc6a",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/GoogleIcon.vue",
+      "sha256": "e1a6d6674f990784293b0cf3fdf7d4952154bb0f894377b35eccf0d2102c408a",
+      "stylesSha256": "1e8c23d6ab19ccb08f26186e65829ce3ba2bc63c79bf02f405f85054db917d66",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/Halo.vue",
+      "sha256": "39ed9733f4c573d254d0917c546c09eeabf3c6bba8642bef2e22a06c0fe3add6",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/Hint.vue",
+      "sha256": "9e6c75070501d2bab2e08608e7efae2199e0cce9d4e7e64edd2b7560d4dc97ef",
+      "stylesSha256": "7ff5e949f815ece10a81cc0f9551f46741883c1f079c1efe886f6413388f0be7",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/HomeCard.vue",
+      "sha256": "13aa04bf20a25606aa9ee97b40044c567280785cc848d1c3ebcc2e3fb29ecadb",
+      "stylesSha256": "7f356c4d6fd65e9388514fb97765961d2d423f98988ed2794357bef1d1915e22",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/HomeCardListItem.vue",
+      "sha256": "15403fe2f206ed8cb5ee14fcfccc8de92974b01b1a6dbab99e612853bb27b70b",
+      "stylesSha256": "bfbad43dee310ce6f638c6e8b3dacfe1e756f5e489723e7f4bef194af6331741",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/ImageIcon.vue",
+      "sha256": "5ad90108044ba7f9a4f983fb4e63846ebd102567b30c2af686671e4c4e921a67",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/InfoHighlight.vue",
+      "sha256": "52345bb5f576b01ed01fcde7df323e753be62db06df19060b9c5fe5a0bc747bc",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/InstanceItem.vue",
+      "sha256": "1706ccaa6b7855e463c12c99d2c2fcf3b73a404ba6c22e94614821f8e6ee2daf",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/InstanceManifestFileItem.vue",
+      "sha256": "fcc644c42de41b6f67c467010c42f322f06fa4ff69a6f6b929872e4c14e3ce5d",
+      "stylesSha256": "1508b8810c24bf3ba0106bda565623e2625a96e8a9cf6d892dc070f7af718fff",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/InstanceManifestFileTree.vue",
+      "sha256": "d68c2fe521fbc5674deb34cb451920d74d2bf211645a4012bcf59789d314bac3",
+      "stylesSha256": "ef0201b04273e4acee31670dd399e4934372f7002a04f3baab48114184a3cfec",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/InstanceServerCard.vue",
+      "sha256": "af2b48aa93142c64cd1abce23a448b3cf3d93d3975e0addd525f15cac76d0c31",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/InstanceVersionField.vue",
+      "sha256": "5e19bba8a1afc05555f27bc4b0bb22a9ced6d95eb37e62333b7620c36f60c433",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/InstanceVersionShiftAlert.vue",
+      "sha256": "72ab9ab294b09644c21283279759f5374bdd7aa361c9f03791c91f08f13eaaaa",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/JarFileIcon.vue",
+      "sha256": "522c7b8f8d2c7d7379a256612291cc6cdbac4685bb3bfeb44af933763adfe023",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/JavaActions.vue",
+      "sha256": "77898d59aaa4724171715466cc126abffc046dc9cd2b3a3f624b79d91bc0f53b",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/LinkSharedFolderSetting.vue",
+      "sha256": "2eb141636c9dbe2a41f82230a26501bd49c142238d2e17fa89c1df2d559dd8e7",
+      "stylesSha256": "d7c383b39200e2522ffefcef8dd0406ff680e4aaea434441eb8aaa956c9297ef",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/LogView.vue",
+      "sha256": "78873aa64dd3fce968f6d3554ca2056dac09ff851c73263798bc379d4719c90a",
+      "stylesSha256": "32811c11c506f454f4ce9147201fd93c2aea4130c50c2b202130451aac237b17",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MarketBase.vue",
+      "sha256": "32d6173e42e81287b1e1e0950db11dde48f5f1de2a5f247a7e4185413fd9d9a2",
+      "stylesSha256": "c829e2d53a503358c4c5581575ddb7296455cd9e1bf6c82680a99468af803f45",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MarketEmptyPlaceholder.vue",
+      "sha256": "e17252acf05c433e20f6a77627c70af119d19d21856007b33b6f414f2c09e579",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MarketExtensions.vue",
+      "sha256": "ddbaeee626c5152e8e5a01a99495aba181791174932ed63adb36a98ef4cbd91a",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MarketFilterPanel.vue",
+      "sha256": "c7dd812788ee1fe5c61c2612b801dfd4152f65fc34b71af787bbfa9b2c616032",
+      "stylesSha256": "0c62a1e7cb7313607463a5c3ddbdb4f14564f5a889c2bc1be7ec75b023998026",
+      "brandingOnly": false,
+      "approvedSha256": "4e033a90401207297a06ceb58027a8b3d17d1aad96b43b51db22f9e8f1920c53",
+      "approvedReason": "用户要求修复 CurseForge API Key 缺失；未配置时禁用来源并显示原因，保留原布局。"
+    },
+    {
+      "path": "src/components/MarketItem.vue",
+      "sha256": "18dfd710676eb2522c0c5f313e95ac2232f09cd06bbda11d86546707fbbd867d",
+      "stylesSha256": "cce888fce585ca59f7876a8f1c0506edde75e76bf2d0b6bcd5d95a5d33b19c07",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MarketListHeader.vue",
+      "sha256": "3223929a508451008babaa136ca0243363d2f9de65b8aef9ee9bdc9b4fd97de4",
+      "stylesSha256": "b7f929379d8a1157bab943aafe1fef77d90c346a62361842af4eaa676c9e8972",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MarketProjectDetail.vue",
+      "sha256": "798a37170d1343d27e868cd441016c9fff0f5d8ca73e3241a89dc69cb39731fd",
+      "stylesSha256": "72225e66b128c5336c7bf04d7e788b2f55c916e09a56e067f9f39e736430613e",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MarketProjectDetailContentSave.vue",
+      "sha256": "030b9eed020471406d08fa7ed9942bcdf0f7502259ca1ea5b59069570553b7ad",
+      "stylesSha256": "2af66a4c72b0d8319e0468da133b2d99954cae46dcead4398b81977911435f0a",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MarketProjectDetailCurseforge.vue",
+      "sha256": "a107798468fcbd47efa3c4360521e08cd4c07dd0c3625728de804df1fa8603d8",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MarketProjectDetailModrinth.vue",
+      "sha256": "2b46ead442e77f1326d243da23d2be2ca7efecb97862f097f8f4ead397102652",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MarketProjectDetailVersion.vue",
+      "sha256": "fe688c2f4eac6e0774f6669c84fedc3dd5d5e47858c2451b134359a42f72c7d0",
+      "stylesSha256": "d738a2a9cedc780ccf6bdac34a382ee69d92560f2e3848c46087db234cebba4a",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MarketTextField.vue",
+      "sha256": "f33e7738d62034e9f82fa13b0a130af6a4823e61984233d2c1ef03b22b8d2cbf",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MarketUpgradePanel.vue",
+      "sha256": "ab67ba1570116a4d74c413ac5dd8b7a3f0ff2b9615ec9fb7ddd72cc88da22824",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MicrosoftIcon.vue",
+      "sha256": "07bc0d287c833aa6c3a76b7173cc13f9f0e33268505c2a8134fc55fab58313be",
+      "stylesSha256": "1e8c23d6ab19ccb08f26186e65829ce3ba2bc63c79bf02f405f85054db917d66",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/MinecraftFriendRow.vue",
+      "sha256": "d0f2f7c9e95724bd7f64a7d72292c30e473602b0bd26c00fa97627d6b07df6f8",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/ModloaderSelector.vue",
+      "sha256": "f48ba924e43b58b00696c953e2d15933a3a1279b68d6e51cf303030961e3b466",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/ModrinthCategoryChip.vue",
+      "sha256": "775d3fb75032d76205d128e02caa7ac8db355d98ca4d2c8c6bb6b2d3c6e7cbb3",
+      "stylesSha256": "64d2df6e9c09594eceb5fcba93512361951d9c55f4ceb8a0535f5b209caec5ad",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/ModrinthIcon.vue",
+      "sha256": "1ca17a338e4f6785eaaf4d1755861b863c4a9eba485a2a13e305cc1b67ceb7b7",
+      "stylesSha256": "e5bb920024070f3834dcebc9fa0154c81b87392ec4b3f59c9f35da56f65b9641",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/PackageFileIcon.vue",
+      "sha256": "2df5d3dcf8867b28ff6f342a02dfd540da035a67b6c7f40c40608a6bd17571be",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/Particles.vue",
+      "sha256": "3599ad7849136bbbb457457bcd0db6fa4dd09349de13c5934b777572d95897a7",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/PlayerAvatar.vue",
+      "sha256": "0f8a95752eb5c556600ae38d5c69f0e8f8121ba73e48522c4d2b01d7c5bf2b0f",
+      "stylesSha256": "c65ed3afd77363ae6b0ef90a602470fbda16c15078763d34765b59b0eb664dad",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/PlayerCape.vue",
+      "sha256": "5a447026c479263e64e18acc8aecdd45206589efbf85aba3cf9e9c4913ee0482",
+      "stylesSha256": "c65ed3afd77363ae6b0ef90a602470fbda16c15078763d34765b59b0eb664dad",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/PlayerSkin2D.vue",
+      "sha256": "df6a762cd765f4b255122777f83a21f84d554abca5e3059f6c63050302c6a32b",
+      "stylesSha256": "efac45d6ac4293bd7ce62841e33e20dabacc2564e33c71114252064947dc1bbf",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/RedditIcon.vue",
+      "sha256": "1951fde8673123f5e394d8463ebe924754b19fd9cfc90c7a7b653ac350d37737",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/SaveProgress.vue",
+      "sha256": "11d98e7798c26a4896b1cfff398f13df0d68d72de0d44b34a3a80943dbd13c00",
+      "stylesSha256": "f55cfdce16a01132995b73338649d4571feacbce4ae76d2685d9dd18792e44ca",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/SaveProgressCanvas.vue",
+      "sha256": "51c3cda14b446ed7b906ce0838093f152e88ab63c76db353de6ab6b10fe75fab",
+      "stylesSha256": "c92f975342f76016d8ae5ca588f449123eb78775c2307924977ef4845b5724a6",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/SaveWorldMap.vue",
+      "sha256": "deb638454060fb4fe93e5559ed862dbf152db332df7fa2cf68342c8ed83b723e",
+      "stylesSha256": "874dd53154cbc50760bfc85509441d182874a671e1d9f1664e28f2430930e972",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/ServerDeploymentFileSelector.vue",
+      "sha256": "ffc6bdc237c56406d6f2a3340020fc15cadd5b8b962dbbefeca7b65551af0800",
+      "stylesSha256": "2c8c88c2dbbdbc9b1d93595336d25483febe9b7585654a2cb52bfeceb765f464",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/SettingAppearanceColor.vue",
+      "sha256": "4ba8ed258aef6afb0d0f290c0824052cbf9f34f0d820f5673c0f2fb63591f53e",
+      "stylesSha256": "4be20f96ad76160c40039aa85109c5f1cf44c6efafba5d19b4eb333240884dec",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/SettingCard.vue",
+      "sha256": "d37851a679760724378ecb5faed2bf2c2c248e71ce7ab0a8ede88dfce5a925aa",
+      "stylesSha256": "8d3889a00e069d487ebdb737098f28a131966d5a3329baa7f098f94f8d6a5141",
+      "brandingOnly": false,
+      "approvedSha256": "130fac52136a2b54fd9697ed147ca25986e23c5246438f90c6ece113564cdfa5",
+      "approvedReason": "用户要求与 XMCL 形成视觉差别但保留布局；优化启动区、状态信息、卡片材质和标题层级。",
+      "approvedStylesSha256": "e341c6a1afd62d907e8a3bae2ff3da04e3222b8d5652642d5139fe69d97147d2"
+    },
+    {
+      "path": "src/components/SettingHeader.vue",
+      "sha256": "3fafba2d70bd078884b4411ffbefb6aeece7538f6f17731a9f084864f695f289",
+      "stylesSha256": "1cdd78713757fed636d54b77ef79657d9031a89945cf51e66c795eabe9060e33",
+      "brandingOnly": false,
+      "approvedSha256": "d7fae0a9f594920d0e9760dc25063ef64d7a7d819d23d6402862123c1dbb8ff7",
+      "approvedReason": "用户要求与 XMCL 形成视觉差别但保留布局；优化启动区、状态信息、卡片材质和标题层级。",
+      "approvedStylesSha256": "273e7ed52f9b546fa87b7592d86a80be8fa49230db7be414a767e66acca165d2"
+    },
+    {
+      "path": "src/components/SettingItem.vue",
+      "sha256": "316790f3929fff09e6fd7960ca80d85b2b1f396292ff65cfe380cc385ebc7a09",
+      "stylesSha256": "02d40277c45c15638dfe77d4285f9c3c7063f4c2ff2e9ab48a397b297f03b3d0",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/SettingItemCheckbox.vue",
+      "sha256": "484e3e6f6bf3a466154fd696cb2abdb6d19f5e50ebeb0cf679df5c12ab07548b",
+      "stylesSha256": "e599fc3f1a6e1293aec84364006fc0e13d91dc1e003ad2ee57884b904cb52e07",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/SettingItemHotkey.vue",
+      "sha256": "2cc17967c6ca077dbc2a2fc1d9eaf7c2b9342471f5fcdf83fb1902bb9ecd8b7c",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/SettingItemSelect.vue",
+      "sha256": "3302f36a4aa63b43b9fe8962b5ef90360f0956b131f443155cfbe5ee6ec8f403",
+      "stylesSha256": "855346255c2818ca7b789cbd3fedc771153e5de26fb92e46e91637e5ba3e6745",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/SettingItemSwitcher.vue",
+      "sha256": "c3e0969352a3dc752b5c1994cd7e24d9449390b6ab8d2e19f5860e51a52c8eee",
+      "stylesSha256": "a6ead8bbb6c6d7deafa96199d2ba16b59f9832f90674d34ebc430db78c908242",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/SimpleDialog.vue",
+      "sha256": "0b448fb839f17de29fe2a4ded6fb4b3c3ec8707e5cbf5ff2d6670e7f19b5f652",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/SkinView.vue",
+      "sha256": "dc5662050bcfb1dcd30ad9e8ed66f6d69fd29f686cec446ac2ace81bb2d48344",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/SplitPane.vue",
+      "sha256": "22ded3cdb69406c9830096717e0e2d1aa55801cba04e8942dc0c4bf193796d5a",
+      "stylesSha256": "ce189bdad5d67454115e683ef4f8b120dbff2521e9353f16083fcde5fb75d7bd",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StepConfig.vue",
+      "sha256": "b7b3120f971c4bbc142cc650e6b38f77b969d840ffa68db6290a140d2ad3862b",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StepSelect.vue",
+      "sha256": "5eea21e06f9ad54ac62be4d61ffe7fb0917a65c7eab6df3cf933cfd3f9c4676f",
+      "stylesSha256": "c4bf5ee2f46e61c9b0b84e7e845575e17aedd67a9cc2816ef3c6baf4b531c71f",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StepServer.vue",
+      "sha256": "7da045926335dde572a550f2203b3623e3d7b8c13e5c310b3de30f3ab46dd097",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StepperAdvanceContent.vue",
+      "sha256": "052298cd1b7dc39a95269bc3233cafe57912020ab1184ddf6e2698c25d46b435",
+      "stylesSha256": "1b0a5806475b7b474692099d0fa2b42572a9c657be9c086ed25dc238159b2b55",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StepperFooter.vue",
+      "sha256": "dc7895200abce18cd55c8f526047320704b36d6f231b28ccc3010ddcc5b46653",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StoreExploreCardModern.vue",
+      "sha256": "f7800e50c82f144266291b6928a6f0c582c581488739ada90a94273ad47d64d7",
+      "stylesSha256": "625a559ddfb48c11ba29aad4f92d7ca83d91bd9f5ccb8a0c9cfaadfd980af03b",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StoreGallery.vue",
+      "sha256": "93da02ff9e943801307276571e1ccbea10767a6ce9034e80d3459822f402e9da",
+      "stylesSha256": "2c6b0ce8f79cab43895db25a7fb7f7caf0c7a853e5c1cc591cee9c821e42c44b",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StoreProject.vue",
+      "sha256": "747763edb41178b70ce182b82a922b1cc8aa1a2ab59b9e74714cfff7cfb28cda",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StoreProjectExternal.vue",
+      "sha256": "17f4313967142a16cd1bb903cbe81c8f64ec9fae8325fad80d1f33d9d3c05673",
+      "stylesSha256": "620254a97f5a9fa2491cf5471b488df3da909b3159bf488d186dfad7c0e0f693",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StoreProjectGallery.vue",
+      "sha256": "5e8497b9309d09d3e43e2c5226c341626912b74746333e914625461ed84053bd",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StoreProjectHeader.vue",
+      "sha256": "39b93aacdef1e3e2add331690fe09978a8f77a20012a944f64cd49d61e9a0fd1",
+      "stylesSha256": "7845668a6696d89d81a42d1ba670d205e61767336d32b611725d6f2eaf8106b3",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StoreProjectInstallVersionDialog.vue",
+      "sha256": "73117ad93f588ad895fb9486aad27bf57e706d3408145f2aae1ddf618969b546",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StoreProjectInstallVersionDialogVersion.vue",
+      "sha256": "e9264f815710a3d4ff855faaf2fd91e8a247a2f9fe247085567df228eafd86ef",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StoreProjectMembers.vue",
+      "sha256": "f668915ea7e520da0940ea0803954ab2293c9bd57d3dd543bfa9c88337ebfa77",
+      "stylesSha256": "5311a540b6fd20b1e2d8db89fb091da5e9d719625e3e972ae00ea67ef77de1ab",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/StoreProjectTags.vue",
+      "sha256": "30ba2bf7a53f31cda8dbc48ab2b2fd9a949bfb55ed77c68a30a99b2492e63548",
+      "stylesSha256": "d1330b4979cd5992474682db6f0e2343e173cb26978fd152434b7e250493e395",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/TechnicIcon.vue",
+      "sha256": "98035be1dcca45ca565341cf333f31db9e8c33406e6d790ebde3888eafdc98eb",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/UserAccountSwitcher.vue",
+      "sha256": "a5a38877ebe2a430d0a20cac149a97867c42221d245e14cee04350f7130643ab",
+      "stylesSha256": "bdbc7c890d57132339b0d30924256654bccc23e0d8ba95ea838acd6ebe64604d",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/UserCardAddYggdrasilService.vue",
+      "sha256": "43f0fc33dfb77528e1c3c9c9049beefe1de77c7dffdf9d708ed7dd167194a69f",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/UserLoginAuthoritySelect.vue",
+      "sha256": "1f249f3e12bb6954866cfabb1d6bf2cb7c9485a46acb4dca91f5e4704cdf257f",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/UserLoginForm.vue",
+      "sha256": "dd121d45f5f7c3d2d9cd09d41817f70bd00631447dfc24e08cdbc7baa14de37a",
+      "stylesSha256": "0bd7bafec2e3b8163fccc3c6ea9d0e7d49c9ce5edff4684311f0d9a69fa06084",
+      "brandingOnly": false,
+      "approvedSha256": "a2f93a694efcb39891aaf10ee9db41a1109cd35cc19123b81c8a5a7f772883e5",
+      "approvedReason": "用户指定微软设备码一键登录：无需账号输入、自动复制、手动复制、随后打开授权页；移除登录帮助按钮"
+    },
+    {
+      "path": "src/components/UserProfileDialog.vue",
+      "sha256": "a8d8cb97535523c1e0221e5cc264606ff66df646a9870d1a523b61ff6d15cb63",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/UserSkin.vue",
+      "sha256": "63b5454525961967f3ea2700e7bf280ab8815d9d2734334e90959dcd832f686d",
+      "stylesSha256": "a9722053b422c19555856437fe9b781b6ab5437bbbf9efe7d565e2d38c976587",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/UserSkinCard.vue",
+      "sha256": "6f63c9079df36a4fe32b6e2f7c2c96dfbf573035f433cc55b147df364e356333",
+      "stylesSha256": "3bf89492bfd5765fd17cab3a34ddc8b9071d6168fa3b19cc41f07d8fe9602494",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/UserSkinImportUrlForm.vue",
+      "sha256": "8352f4b0b03b3876dc6e43943cd649be44caea883994a7eaab3206c5d4a9d089",
+      "stylesSha256": "d7426e5d2b3c8ec767c7a47f3b8f35b77f46c8a2ca013909697e5b5e96b51854",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/UserSkinLibraryDialog.vue",
+      "sha256": "1237f71158b72286f7393a6b28c65cc7597b48ded64c81f50d6f5cf2dbd73b68",
+      "stylesSha256": "a3e88ee2ae31a3b14b372879709684271084f4b7f9c3cd4ce811167f847b6cef",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/UserSkinSpeedDial.vue",
+      "sha256": "94e22c377763e92efc3eab34668a2b99dcbedddc5748953b71b76e9eb532bdcb",
+      "stylesSha256": "c65ed3afd77363ae6b0ef90a602470fbda16c15078763d34765b59b0eb664dad",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/VTyping.vue",
+      "sha256": "402902d55e3d157a459349f5efa78987a7f0ebb09748b99e8f5c50f0d4fc1573",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/VersionInput.vue",
+      "sha256": "7570fedb96ada2d3f10b8cb62fa0a78013f1727a08ebcf928c831eb9cd11ec63",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/VersionInputFabric.vue",
+      "sha256": "dab6c295b22c872e54d05b3548e299dac68c33f97df28fa1e0f05ba43feb40f6",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/VersionInputForge.vue",
+      "sha256": "b6fcbf1b8cc3f6a1519a85adf79d802846ce3a4468ff2202f5147d4fc45bdec5",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/VersionInputLabymod.vue",
+      "sha256": "7b35a291a9918a710ddc93f88ee32d9e0d9ae0bfd206825318a7745d55051100",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/VersionInputLocal.vue",
+      "sha256": "74252ace24d0a4f17022898cebec186d525f226b72dc61979e70fd004f8fc960",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/VersionInputMinecraft.vue",
+      "sha256": "ed7c9d6519393595a90639fba0d29e825e9efeb1f51221d6c095456ed65ecd51",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/VersionInputNeoForged.vue",
+      "sha256": "4bad0df48cc61584f5c96cc9035bffc9b29a74503e759c1559bbc51ee0f8506c",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/VersionInputOptifine.vue",
+      "sha256": "6569a032dcb929c477a2370a996e6a594202c5aebaff5c76ab1e51ee49ab6ca8",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/VersionInputQuilt.vue",
+      "sha256": "340610dfa6e3e87a6550c46a8fac9fdb60cf5dd96d5a13168ae0543645f4582a",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/VersionMenu.vue",
+      "sha256": "0b3720427bf196395acbc8f5f2b98a7fb9682c26d4677f6bda06a0f61e02070b",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/XmclAccountPanel.vue",
+      "sha256": "cbfdde0e876ee1db7720a9565c032f825cae0b9c6f225235a127a412dcdc277e",
+      "stylesSha256": "c8375b7bb1b3fb2535895581b6e70c6963c3013232705a2be0f981b9259047e9",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/components/ZipFileIcon.vue",
+      "sha256": "c5db02bafe50c485d0f60b11bbb4e0fdc65a223d1d519fdbf450482fc8f6c707",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/composables/theme.ts",
+      "sha256": "55f53d14d716dbe1234e163c94860e01ac341753a80f6921ee588115bd64f73b",
+      "stylesSha256": null,
+      "brandingOnly": false,
+      "approvedSha256": "5656fb17c4d72e755f8014856470022e8cbf8f09eb047725e44903058f659429",
+      "approvedReason": "停止注入自定义文字字体"
+    },
+    {
+      "path": "src/views/AppAddInstanceDialog.vue",
+      "sha256": "c42a510df95a242a039b5ef832e30cb8f53c236b9a70beddc968c57aebacee89",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppAgentChat.vue",
+      "sha256": "bcb914b9c26cd3c7bf46af16441137d14c9f7e628a22035e696b942b681d83e7",
+      "stylesSha256": "b7fac3b93822104cd9b64dd2da4f822f9c364b09762aa934fbccf411ae53b882",
+      "brandingOnly": false,
+      "approvedSha256": "0a12fa98a653343b06bff5cac74c7194989f3b5eafe9c28fe8fcacb8debef3b4",
+      "approvedReason": "用户要求移除 AI Agent API Key、模型、Endpoint 三项设置；清理旧配置定位入口，保留内置免费 AI 服务。"
+    },
+    {
+      "path": "src/views/AppBackground.vue",
+      "sha256": "c21263ec7d3335ac04b38a3390285edd58d93d7e68e546e23a541a0d487c856d",
+      "stylesSha256": "bc3dd2cb7e335a6aec4f8ff2e8cb112398610e507566e344c1641ffb986a6997",
+      "brandingOnly": false,
+      "approvedSha256": "a88f820f0b5b9368a2f90a162fb96786cad7a1e635d7528041a0850d22d42bcb",
+      "approvedReason": "用户要求每个游戏默认显示非 AI 背景；使用 Minecraft 官方版本图及游戏全景，保留自定义主题。",
+      "approvedStylesSha256": "bc3dd2cb7e335a6aec4f8ff2e8cb112398610e507566e344c1641ffb986a6997"
+    },
+    {
+      "path": "src/views/AppBigPictureView.vue",
+      "sha256": "bb5592ecbe7107791572b12898e6d6d365804929baf595a38cd33b0e683a783b",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": true,
+      "approvedSha256": "f045c4af1437f43c09c5168f2160e23a412ced46cfcfc4fc276fece145291b86",
+      "approvedReason": "用户要求移除整合包市场：导航入口、市场路由、大屏整合包浏览及详情入口；保留现有实例与本地导入。"
+    },
+    {
+      "path": "src/views/AppCollectionDialog.vue",
+      "sha256": "2e21f54b4a19a8965da84c5fec265b3040336387253a543d4613c75667427133",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppCommandPalette.vue",
+      "sha256": "e233a673ecac323a40d6acdf883fe76b63d52be346de4211b065c9b7293b94fc",
+      "stylesSha256": "b9282719ab46ded713e2f277650355503fcfcbfd8916ad4c774135c235dd5f42",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppContextMenu.vue",
+      "sha256": "5430d31187f9668adf0cc4d44b02b17dc2d0758c3ef4fceaa5169bf491618eef",
+      "stylesSha256": "5c9cbffb57c8f1d0a7f804b828d0f5784f97237ace6fe609f46c417c30b0a555",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppFeedbackDialog.vue",
+      "sha256": "98ef8c6b3faf6af6af4cef2e8bb90b4b45209aad9ac76a5e4752fb8e6a717a87",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false,
+      "approvedSha256": "d7d93c2538a81d92fccde3ba0960c5530055007326e57f2ef16e63aec7747c9e",
+      "approvedReason": "2026-10-23 user authorized TORA service migration and removal of paid or object-storage features"
+    },
+    {
+      "path": "src/views/AppGameExitDialog.vue",
+      "sha256": "6ef316dd491c1ab8f92f5236371061c5423e6cf0f7d8c38bf80c264d4f94dce6",
+      "stylesSha256": "d7426e5d2b3c8ec767c7a47f3b8f35b77f46c8a2ca013909697e5b5e96b51854",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppGamepadModDialog.vue",
+      "sha256": "07b0abf9b2b1e35844843bbfa58faea92dc66b86ff1d72e6dd2acb17d9360c86",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppGamepadPrompt.vue",
+      "sha256": "94987026f9ae79792732f757b07e99e956b2e18f242ae9dc9d25bbfb7b1ca12d",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false,
+      "approvedSha256": "6b953a1e03ef4cbd8f5b3ec537ff01b11fbcbe522e95179caa61483d24869a5d",
+      "approvedReason": "用户要求移除整合包市场：导航入口、市场路由、大屏整合包浏览及详情入口；保留现有实例与本地导入。"
+    },
+    {
+      "path": "src/views/AppGamepadQuickMenu.vue",
+      "sha256": "88818092ce3913608adb664677be870db6687129dc19a301ffdad4fbfef36030",
+      "stylesSha256": "c0352235e50bfa552158f873efe084777adb97955cd4bbd1c9b02e6fdacd4f6e",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppGamepadSteamDeckDialog.vue",
+      "sha256": "741a8056d3994e0f1ad97e6f569672479116690c8cbb2f5c9f9b9a8a8a443488",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppGamepadToast.vue",
+      "sha256": "6bdcad0bf66c3ca398e6dd72c863db96a8bc9b6a70238d12819c08c3a64d7cab",
+      "stylesSha256": "bc8de1c0538e1199c94a1563d36e098d91d75e839142a8ed4bb2b08d98775de2",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppImportUrlDialog.vue",
+      "sha256": "688e597e22e862cceb674f32cef94768a7dec92add91436361e7a3e3bd6f029e",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppInstallSkipDialog.vue",
+      "sha256": "b5a680456af26a83b579da30eb021aa4c2814d6610bcee0cccec77d090da7ae6",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppInstanceDeleteDialog.vue",
+      "sha256": "6614391eafc3ddb212200638a633150fa6c55ca5df3a30ad3602c61a86f1ee73",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppJoinServerDialog.vue",
+      "sha256": "de14f190b0229f25a211c07be99eb8fcd74f88ec1fef83c209f85721f7157358",
+      "stylesSha256": "e237d455531f84bc725831266db50a99eeb30ef23bc37ee39fa53d4de997a0a9",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppLaunchBlockedDialog.vue",
+      "sha256": "cda66961750dd83f9c65f14573731bf41916e4a8013c93dc75aca7191c8a6605",
+      "stylesSha256": "76c045ad71694a70fb76174a5e6db3ab674eb859073b50d972007e850126fd69",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppMigrateWizardDialog.vue",
+      "sha256": "368c6e56f5933c0352ac9da2fc22e6da925417e38b0c74bd20b46cf37a55b6cc",
+      "stylesSha256": "fa5761ec4d5e561dbbcd49a2b57d262e19fedee02f89b839767cd993351b8d5e",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppMinecraftFriendsDialog.vue",
+      "sha256": "80cc8452075bd5b826eb478edf22d90201afc2a2a676c485276bc803e9659833",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppModpackUpdateDialog.vue",
+      "sha256": "261b9560f84538492de19f5d16c32323eb0b13dcb31c283f827b5abb76740831",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppModrinthLoginDialog.vue",
+      "sha256": "bdb2d40cce8ac844d3b0c75cb027c67ee3e4aa8bb4868eaf9623c4de07fd1436",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppModrinthProjectBindDialog.vue",
+      "sha256": "84076819a54fe75ec150428cb5c0f5ffa951ad520e7141a13617a01830cfc214",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppModrinthProjectCreateDialog.vue",
+      "sha256": "4ccb0368ed28430da15b562a0919c909b392198a4d6b79ee3eab8d01aee84e18",
+      "stylesSha256": "a7cf195dd26a5a5b3054b1cbdddd11ece853657ae77cc8b511c03addf48d9ae7",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppModrinthVersionPublishDialog.vue",
+      "sha256": "bac2d0c2f8ef98a9a0586161f35aead5f22583e3f121eabe59ab258fbac1d1cc",
+      "stylesSha256": "02b248037af9c7dd7c0aba7fdc3d3616609ac11634a87af70617d71fe12f200a",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppMultiplayerLoginDialog.vue",
+      "sha256": "ff50abfc1bdf6782d56457a6fcaa0d9187ded18b59bd39fcdf4dfb745b2ad83f",
+      "stylesSha256": "96b51da38419537a6ce74f57686e4087be4a277fa0e275af4aeb1c0651f4c496",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppNotifier.vue",
+      "sha256": "0e80312f306d10ef30ae995e7d30b544b95958e85762f6557f592b66ba2a560f",
+      "stylesSha256": "c1dcbeb9131c7cb7c6c84d14b44ed5829c54dc15bc2dfabe44e40abfb9e52658",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppOmniDialog.vue",
+      "sha256": "182360d205363800b3584dc49bccbf2b7c61d2631234d22cb60dd20b76a2b2ff",
+      "stylesSha256": "a3666fcbadbddce547acf07379c965a9e44d215a4a94dea2c17499a5266be527",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppShareInstanceDialog.vue",
+      "sha256": "4b994a6cf2cf59775c5481652ce1c40bd78c19a93022de0ce051c657fa7169c8",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppSideBarClassic.vue",
+      "sha256": "6902ac20972e0e5080a3e0f862b46f44fe04b8332b42ca7035ae174405f83e6e",
+      "stylesSha256": "7ca49b3b0586947bc87cb740bb6f8a43642d1efa84bb565ee12ce7d2f8247b2a",
+      "brandingOnly": false,
+      "approvedSha256": "57767b56cc74d6c42823b931da336e5294b783403e85e1f0035975c167d40e4a",
+      "approvedReason": "用户确认社区首版仅添加导航入口和独立页面，接入现有橙色指示条动画。",
+      "approvedStylesSha256": "0738649a8407abd7ca69a2884f4fdaaddd6c29d71b0a7f3f13118918c6254103"
+    },
+    {
+      "path": "src/views/AppSideBarGroupItem.vue",
+      "sha256": "fe8c8985e14421a950f851b461709d7545da618b592d538a7a550c0b7164ff67",
+      "stylesSha256": "2cbd92220b3f22854844c298aa133c1adcd3677d6cd055b9c56ced3ec84cfaf6",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppSideBarGroupItemIndicator.vue",
+      "sha256": "3b731ea6d5a2284d8903e676f6261815c26b0717368bf34ed7c2488c35671647",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppSideBarGroupSettingDialog.vue",
+      "sha256": "4455f55d87ba9a34d38153b6b2d9db6dc4be959de9b4f45dfa5cf7f991e33a96",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppSideBarInstanceItem.vue",
+      "sha256": "9917a036a2b718797215421bbee7ac190e3e58a3e436834f7f85f0a207e26d40",
+      "stylesSha256": "a3322805dac480b2f55546ac9aae4f4a5491f06431bbca259c7e4349423665e8",
+      "brandingOnly": false,
+      "approvedSha256": "5ec5b4cbc2431b0ff1ae5602e8bfe895fd03c674aede6c819bc7420e53d9b85e",
+      "approvedReason": "用户要求删除选中实例图标外的橙色圈。",
+      "approvedStylesSha256": "492a3b39be87f64e9c539cf5edba77c2f949662808b7c8942dfbcdf6353c3381"
+    },
+    {
+      "path": "src/views/AppSideBarInstances.vue",
+      "sha256": "45c53eef13bce687c4b9b149338655e569f9e5ff374d72a5a0146f9e2269373d",
+      "stylesSha256": "363108701b79b0586be7c8cbb72b038e10f37eaaf120a58a9e1d725bd2808cd4",
+      "brandingOnly": false,
+      "approvedSha256": "e65a1bce6c1b1ccabb8f993a7aaf45aabf8feab98d802db2b235f07d25ff8d59",
+      "approvedReason": "用户要求实例列表的左侧橙色小条在选中实例之间平滑滑动。",
+      "approvedStylesSha256": "6de898b0e4fd6be385390a8b192320ab52d9bc1df049ea0e52e7badb36d14a2d"
+    },
+    {
+      "path": "src/views/AppSideBarItem.vue",
+      "sha256": "acb98f30310b38b88c0e44fb8aa0b680318264a6ced31b6803fb419edf12fc66",
+      "stylesSha256": "9705ac50977a3ce753f139e74573d21bf66181f99c36a1f6ac7435c28d85c02a",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppSideBarNotch.vue",
+      "sha256": "3dd9ec670edf210def8afd89216b7421020dd2ee1475cf863831807bcab1d2f1",
+      "stylesSha256": "de69c7ce59cfc673a2ffec7fabe2e016040ef6743a500fa668bcea4a00afd64e",
+      "brandingOnly": false,
+      "approvedSha256": "aabed86d21199be69e7a3dc1859a1156f9d85f5efbe9cdeece79849e04145c7e",
+      "approvedReason": "用户确认社区首版仅添加导航入口和独立页面，接入现有橙色指示条动画。"
+    },
+    {
+      "path": "src/views/AppSideBarNotchItem.vue",
+      "sha256": "8d59a96e509877bcf761781576c9f7646686f6675e3ea92957d30bf8553359dc",
+      "stylesSha256": "9fa9689b746f60c4627ec1e019b588d9190a4d8109e56b6336c267efcf5d1f2b",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppSideBarNotchItemGroup.vue",
+      "sha256": "6db725a8495441b34a099e42554c9ed1e8365b56a47e7bb64de4289816160b72",
+      "stylesSha256": "307272c612584af228dc66d0083af058f2928195f3c0111c1fe523e4cf89022e",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppSideBarNotchItemInstance.vue",
+      "sha256": "d6a860430221674a488fc8077aebc23df0a166665f725d50eab77cf78e517d91",
+      "stylesSha256": "7b8351f66e025aab6c28b2f8acbdfa29136993703e00efa5db2c6df07ce663b5",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppSystemBar.vue",
+      "sha256": "d0488e36a85f5509df4eab1f67c495c543c4bd8239937828644fa24a1d019a44",
+      "stylesSha256": "288a93dc2f6149e6f926ce0d460231c8bf323c9de2dec9735634f2b9d1d7a8b6",
+      "brandingOnly": false,
+      "approvedSha256": "d583d9309115d7a694e0f73c5ddaa10eda01649973762ddf29348d24e0f0095b",
+      "approvedReason": "用户要求删除 Minecraft Together，并修复设置页挤压顶部窗口栏导致导航错位；保留本轮修改前已有样式。"
+    },
+    {
+      "path": "src/views/AppTaskDialog.vue",
+      "sha256": "ebb8a71eee421744859c7ee8aacb2f4a8fb98fbe82e2151b17f64f71d8eccee5",
+      "stylesSha256": "bc75af2a01adf350d68d0f2497a2a19a6205bc35857321b706afe9ec00939416",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppTaskDialogTaskItem.vue",
+      "sha256": "69612aff6f9c1d43114187c044515aa7157e1d6f098bd26cbc80fa344ae1c7eb",
+      "stylesSha256": "e83fcb34ebcc54eb5e2bda11ce44cb95e6ea9c82072d8021b8d6e5e06aa14d09",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppTaskDialogTaskView.vue",
+      "sha256": "1b942fa9240382a6f646ddb0814fd80a73023b702b7f8d58ddc94f745ad62085",
+      "stylesSha256": "839343151b842bca195fa9ca8f860c68395a63195b411e04e6fdf8aaf673dc59",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/AppUnauthenticatedWarningDialog.vue",
+      "sha256": "0039c7f4ba544601336135e2b356815efaa87c97c5c50f955c14e174957d89ee",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false,
+      "approvedSha256": "30deebab8aef5cc6ad70607755683c1f802c3168ff59d62a7df840e7ec3778e8",
+      "approvedReason": "2026-10-23 user authorized TORA service migration and removal of paid or object-storage features"
+    },
+    {
+      "path": "src/views/BaseSetting.vue",
+      "sha256": "c3b176b59ceae7d41a238ea0febeb4fe0621cda820073c76225a0ab4ab1f9656",
+      "stylesSha256": "9de2ad94445b55a0c133b856f23765d5d7dab196344d9acdc5074020c17deb37",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingActions.vue",
+      "sha256": "56a9cb1a0b4b264c3af85164cbaf1ee034fdf5e4748742b50b2dd9b6343571c6",
+      "stylesSha256": "d0630d2e4d35b768accf22dc324e24c1e3900f98838563baaa9ec40663cfc76e",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingAdvanced.vue",
+      "sha256": "b7d8741e4d9ae6bc64cfb0921ac67a1dca36994caac3c84c2151f231dfe64df2",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingAppearance.vue",
+      "sha256": "6331be6b907bb481ecca3cccb24d10686e66aa81789e7184666a45389e846d14",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingBedrockVersions.vue",
+      "sha256": "b353eefe127821480cdea86de5f6c8689941a8104b37b1e583f94dd8cc3088ab",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingExtension.vue",
+      "sha256": "ddf16536cd5b8025dc5fe3d922c72414832a33aee4fd947ead45cfb558832d12",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingGeneral.vue",
+      "sha256": "19b1f48f65b347dba8ca63ae6a6f2de27f4635eadfca22b6d5fb7a4a06eb001d",
+      "stylesSha256": "5c542c09d2b63dabfb2564b60dfc13386b276dc649364bc651ab8d5ac32386db",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingJava.vue",
+      "sha256": "87256f3e3876a63644c1f4b1a8b5ca6a7d50869c3710d96269efbf247ab9c237",
+      "stylesSha256": "ed3003ff97644a3697946458c26fa1d74283b3976cdf36b3ba2d025af0a20b5c",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingJavaList.vue",
+      "sha256": "1c19f0ed58485ebe656e4fb71e3fd90c157d7c2b7f188b32458530315a010f74",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingLaunch.vue",
+      "sha256": "52ac95b6056503e2c9122dffa9d64aa9dcb4078550828f10f59a6fb1fd4733f1",
+      "stylesSha256": "485105bab766811da10221dc28454e99d5167fd48525d4668390fcbf93df040c",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingModUpgradeDialog.vue",
+      "sha256": "b8be389a1a74a551a3c9056f972593c50925d7fb6b455033a408ccaf1d24a223",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingModpack.vue",
+      "sha256": "b54b93d532fa8d4a1dee54f5107e9c65dba4bd973c7bf60fd31036c425107e4a",
+      "stylesSha256": "bc57308d63c31a17e84366c945470ab90c68d0742897855c00ade64ea97d012b",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingModpackFiles.vue",
+      "sha256": "8909e27ddc9cd4e3e07bbb2a89b85be8b009d3cdec889cf5fa44607f7eab1187",
+      "stylesSha256": "edcb3e25b620329552fda0376d83eccd8752716c8a18c657bf5ffe3f7e052635",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingModrinthProject.vue",
+      "sha256": "8b7ce3f75ff2dca83779045d752560fa5a6e114874984a37a46f5ad82dc9e77c",
+      "stylesSha256": "c022434e8f2ac977097095b12d9b3d02b3e15ea4fe548e523be904e97cb37912",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingResolution.vue",
+      "sha256": "2dfae3997ae436110e29d7d4c927a44707bcadde2b382dcda641b0c0dfe5d993",
+      "stylesSha256": "e0ae955b1e2c7b117b8764fbb2789c109d6f9232ffbbc47583fcb48b137d8b7e",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingServer.vue",
+      "sha256": "086c64f880fa6ad385c8c8b2f29ab4533d0bd3ecbbe143c85a33b2d6a8dbe24b",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingServerItem.vue",
+      "sha256": "847ce287d30ea77f3621d9e0e396e1d82343cfa901ee7a7ef51734e09dedcb0a",
+      "stylesSha256": "3c2b16e95d74841a482e6bf01d2a3c3bdec38c195506cec30a1952afd6c187de",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingServerManage.vue",
+      "sha256": "844e0231d3e50e059c2b095a79f12e2b13f7a07601c6ea00f3f6da9511864f21",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingServerRemote.vue",
+      "sha256": "cabb6e1fdb004d580c2ea31148be78ef6289cef93b7cdde284df4ffcbddfe82f",
+      "stylesSha256": "2366e9cd0d681d811a4b95dd9633ea6b73769c638500d7342e7fe4d01f20345a",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingServerRun.vue",
+      "sha256": "c60fa82e7f4289c4854318e7f9e2bf62bc0bfa01b203996605b3992a4f320442",
+      "stylesSha256": "0d707c7a1f0f787c75f78bcc0f5e6801dcdc8bace755193877766633c579697a",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingServerService.vue",
+      "sha256": "da09405c2399e5673fb1c2c2f92b3bc7e2347eea156b778bed3fce2d8dcde39d",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BaseSettingSync.vue",
+      "sha256": "00f11aff6d34445aa625fb5664275ec0884546d24d9e3bc0b335eb95b05526ae",
+      "stylesSha256": "d3ca3032317f813bc2826b4a8e335398f136fb5de8516bbaf8d3d38d6ff3caa6",
+      "brandingOnly": false,
+      "approvedSha256": "bd2a47591b94b9805010455da9071c2ff9547f8ae8d79caa5177641fd2a6b232",
+      "approvedReason": "2026-10-23 user authorized TORA service migration and removal of paid or object-storage features"
+    },
+    {
+      "path": "src/views/BaseSettingVersions.vue",
+      "sha256": "ade8aed7f01e707d2a8d463a06ccabaed13c826bea48a988d5c82d1d9cc4eca0",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureAccountDialog.vue",
+      "sha256": "e4a1490f0e9757441f4bf372f80e88995cd87c597ac73d3e5299be45e9531d6f",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureAddInstanceDialog.vue",
+      "sha256": "f3d47e98beb6facea8654f37126e837f9fc655d44d698c0ee53b6370efbed245",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureBackgroundDialog.vue",
+      "sha256": "92bf435cbad0db37a8d7a2f47324d0f480dd3ce69ce41a9ea6ed2549c9d5d902",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureBlueprintsDrawer.vue",
+      "sha256": "abe2fdb1866a6fb5b0ffda4662f16054fc35e4c90d6a13bef7925e80bb8c4ab8",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureFeedbackDialog.vue",
+      "sha256": "c4b570a85a36a00612618e5f3c698895db232cb842a4787ea3639b937eb66b61",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false,
+      "approvedSha256": "94f52446a1dc511aaff1ee77a7c1c167641520680b69ad999dd972ad2c3b7701",
+      "approvedReason": "2026-10-23 user authorized TORA service migration and removal of paid or object-storage features"
+    },
+    {
+      "path": "src/views/BigPictureHelpDialog.vue",
+      "sha256": "1769cc17922e3dd31a39d83b10b7baf631bcbedb4753e372d022f24bc5de1078",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureInstanceSettingsDialog.vue",
+      "sha256": "b26576746f4ed2ddb2f1f200c1d371aadf74da1d14ba88ed4513f73be1759c86",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureLibrary.vue",
+      "sha256": "a0643e1cb756cbc3ddb9b2cdd0181672ef2a268f84b549f443eef19f9af14f1d",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureMarket.vue",
+      "sha256": "a5ccde979d6dd6dac0bce32f4652dc1cc7921e5b71984854449a59a0fa85c781",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false,
+      "approvedSha256": "11d00efa506cbcbb11a6fa20ad4b7bee84bb77377f4fe762296e3d450e85077b",
+      "approvedReason": "用户要求移除整合包市场：导航入口、市场路由、大屏整合包浏览及详情入口；保留现有实例与本地导入。"
+    },
+    {
+      "path": "src/views/BigPictureModsDrawer.vue",
+      "sha256": "1fa4bbdb1d6ddc09b5fbf5b827070d0987e5e807ad9aeac7506da4c2b7310d3f",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureMultiplayer.vue",
+      "sha256": "4c60444d2bdcc8f9068a55a0d89b6884e85a47b671d1c05df2f80c50b5fb1b99",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureQuickActionDialog.vue",
+      "sha256": "a121ffaa0a314a6a03156e9a42c53c9d2c81c8a80611b2a4fb3a98548585913f",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureSavesDrawer.vue",
+      "sha256": "4e5a3d310a83410c06ed03de60f3eb6ebce6c25b32a0c301e3e5e7b92c8722e6",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureSettings.vue",
+      "sha256": "7495ca8bf0a6d1fa8b3c7f83a21f2a67da258404a99b1506c1e223d84ea3dba4",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureShadersDrawer.vue",
+      "sha256": "13df7b18193abb67adb88d57745bad25ef858bc0bd38ea28ae519f1e5f37fb43",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BigPictureTaskDialog.vue",
+      "sha256": "53d81ce5a523cbb5e835c3a47adf58fbfd0d840d30443ddf6ab25c1f893109d3",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/Blueprint.vue",
+      "sha256": "b6cf1b881cfc032cda3580e19d5bd930f18f30fa5b84469e2d27ddfcde244fdd",
+      "stylesSha256": "0edab85274c0bc349121124517f133453b2ec93161bb62934a1aa212099b32b2",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BlueprintActions.vue",
+      "sha256": "a434430275e716024863c225a1e38ffd8765186a5b8b84dd8f330387af6c7bb4",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BlueprintExtension.vue",
+      "sha256": "6055e14d28c701bbae1ff28ac990b26f05196c1ed4de51dcac17770278a70234",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/BlueprintPreview.vue",
+      "sha256": "d65066823a792a3b2d034ea361da94d863dfaa1476b2187c00bcdb6d2c0b1fd1",
+      "stylesSha256": "d81bcbc4b15fbb7092ac2d87bfd158f3102875a1cc7ed671d58d89a637abcddf",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/Home.vue",
+      "sha256": "7b26debf8aa3b919a9eef3891a518d31f7eea4bec92f15fbdb9e36469a6dc0f0",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeActions.vue",
+      "sha256": "d778438ef7a8ad0a744e7648aa1dcbe440ef2ade5302aedc343bf9ab6e6640b8",
+      "stylesSha256": "fe4379b4b6a6643b7a1be8a55f58a0972a8a35f8a66388a69b33d4d48992e875",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeBedrock.vue",
+      "sha256": "c4ce21ed416c4bea163b0f341649dffa4024011a581006f50a981b6e60ba4a4d",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeBlueprintCard.vue",
+      "sha256": "83a1358d723047606b12976d32cde5389d0dfa08a2481334316d75637e702a1a",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeCriticalError.vue",
+      "sha256": "c9199ebaaefcf2eebc9d5ed2292892027c222a620d31e8d9c92b634e3f05309b",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeDropModpackDialog.vue",
+      "sha256": "254a3e45fed6bc8e10237fe0d108c83609d0e85442a478278426f638314b4a4c",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeExtension.vue",
+      "sha256": "64e097d7b89928486f5f9ea9599480b08f7b4a78681f0c9bbd3465307e22e516",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false,
+      "approvedSha256": "23b646f71c9741d5a9a14ab8598c0ce3f03dd4e3d8ee4a7a46fbb16a81024720",
+      "approvedReason": "用户要求与 XMCL 形成视觉差别但保留布局；优化启动区、状态信息、卡片材质和标题层级。",
+      "approvedStylesSha256": "ab8a4a1734bde42dc4c7449414635c699765d0e89bb7c12b19c7cbb48d17d17c"
+    },
+    {
+      "path": "src/views/HomeFocusFooterV2.vue",
+      "sha256": "0ced8dd7085867f62f89a15af15b31f74196e965a79f8921cd1af0c82081db4f",
+      "stylesSha256": "cc4b2c354f3eacd29a59b4923a0d33fd203e84434bc965f7f1978b99cc7ba1ce",
+      "brandingOnly": false,
+      "approvedSha256": "43a49f9d2966c53cf177979933c1d820d9d5f97162c8f8d1cf75509ad160fa56",
+      "approvedReason": "用户要求与 XMCL 形成视觉差别但保留布局；优化启动区、状态信息、卡片材质和标题层级。",
+      "approvedStylesSha256": "57363d56040a408f27f3510dba60650c29540ae0d84531fd7fa332ab42464854"
+    },
+    {
+      "path": "src/views/HomeFooterCard.vue",
+      "sha256": "508cace6ec94b4dcbea240431c104a4c4e0259080d3ec912d49048ec42bb8490",
+      "stylesSha256": "f54d55a7aa159fe1a3f10d8fff7bc80f5f050e81a377b6c7642f512c54697e0f",
+      "brandingOnly": false,
+      "approvedSha256": "1f29af220e3619c6f61dfb73de1176910a41039e82adf4dcb0f6850a2c405eb0",
+      "approvedReason": "用户要求与 XMCL 形成视觉差别但保留布局；优化启动区、状态信息、卡片材质和标题层级。",
+      "approvedStylesSha256": "310dfbcdfeac06f1bede9e7c415c2cf0016c33b3bf22a7d77d57dc4eaf96aa1b"
+    },
+    {
+      "path": "src/views/HomeGrid.vue",
+      "sha256": "de2e75e717148990b48e7dad487e7e462c6d47b72f9ea610481b77ac5e7f6191",
+      "stylesSha256": "0f8198317ee6af1259c7f36057db10fd901e13d18d13c825134065770d2fb8b2",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeHeader.vue",
+      "sha256": "c53b5b5541579a1f4328ee8e256f0955fae5084aaff346ddef808c087da7c9a2",
+      "stylesSha256": "bdb1cfea60a8007487d202f66ba352e67e7cd3557fe75462107c9ac9d5dab35c",
+      "brandingOnly": false,
+      "approvedSha256": "c818a7ee20f5fa2c6ee410d5b7236654e0a819688439c7de1162ddf7d39417ce",
+      "approvedReason": "用户要求与 XMCL 形成视觉差别但保留布局；优化启动区、状态信息、卡片材质和标题层级。",
+      "approvedStylesSha256": "b82ad1076b32868d1a190e6e56c6e9c6c7aef1af81fe0bb18ed52d5f0730f39f"
+    },
+    {
+      "path": "src/views/HomeInstanceInstallDialog.vue",
+      "sha256": "ad7385d82f59e823d75455c11c3f3a0de562a5b9ddcf5340ffb99a825528a546",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeLaunchButton.vue",
+      "sha256": "e7a32331465067e40145f813fc08ab9548370d9c92970cc011a634d91ef58985",
+      "stylesSha256": "c83de6505bd27bdf9deccaa2b7b9e36c42a979bd86b3bac4cba538e979620ac7",
+      "brandingOnly": false,
+      "approvedSha256": "5f7056ed63ef97e009628d92865a3fd495e89271c69e232e08d8c32ebf2b56e5",
+      "approvedReason": "用户要求与 XMCL 形成视觉差别但保留布局；优化启动区、状态信息、卡片材质和标题层级。",
+      "approvedStylesSha256": "c02235bf041bf3a40ee15c107070106cfa04ada160c9806100c9354b7ad28bdf"
+    },
+    {
+      "path": "src/views/HomeLaunchButtonMenuList.vue",
+      "sha256": "8f3acd33d6ca85cdd590736270e59340b20cfbb0aef279958c218a3820d68c28",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeLaunchButtonStatus.vue",
+      "sha256": "4661d8e5f079caf3b972e92b08ed6837dd7d5afab9392ed540a0491d1ffb84c4",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeLaunchButtonStatusItem.vue",
+      "sha256": "e446885facf14cac567fad78b8d0e64a8b83f94bc1f455c2c4bd9c98220210e0",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeLaunchMultiInstanceDialog.vue",
+      "sha256": "48a16017393d53c06261f528e71eb933d4593877df60d96759dc359526ca857e",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeLaunchStatusDialog.vue",
+      "sha256": "985520cf3b8b5d6e51aaf922fd0902a7d2a1408aa2367adfee1fde8f6ab153b9",
+      "stylesSha256": "adab092efe0d964f74ea3e4354cb06aa499b7fda39c15b4a741fd18d180cc99e",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeLayout.vue",
+      "sha256": "6b258f6c0ee08601c8f9d313e862a0b83d1e3169d1ccbc107249a731430e148f",
+      "stylesSha256": "682080e0c689c8b0523896e0bafbcdfe8c0a51eeebd484346b002d6a8b786ebc",
+      "brandingOnly": true
+    },
+    {
+      "path": "src/views/HomeLogDialog.vue",
+      "sha256": "11a9d5af06231b05c6a30439c56dfd8b7b284b04d812559100f18296b9a11adf",
+      "stylesSha256": "c65ed3afd77363ae6b0ef90a602470fbda16c15078763d34765b59b0eb664dad",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeLogDialogTab.vue",
+      "sha256": "aaf7851202c4fb46eabed13ef4a5cf9cef15dbbbbb501170102a94e78a2dbb87",
+      "stylesSha256": "cd9a31a2ca19004f93f3a354b0d501200403ea775fa24132468709fa27285002",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeLogDialogTabItem.vue",
+      "sha256": "25c8d393da568df60312d7c36da447351c5ff5ff4e8cb902dcbb29680a29002f",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeModCard.vue",
+      "sha256": "239eb1c1cb9ce81a75ccec96c5056f5ad5eeef5338fbd264711a176904452658",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeResourcePacksCard.vue",
+      "sha256": "57c5a6ec69ebdcb4d44f3113783e6c0dfb16b323e10034ff4bebf21e7590affd",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeSavesCard.vue",
+      "sha256": "34afe624df0755d160d14134623897b5a84df63dee4dc59ce3b2d87d2dbc492e",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeScreenshotCard.vue",
+      "sha256": "917a0818358651a8bfa6a6c28a50208aae27b960f561b89d4b9f11e2daa8a055",
+      "stylesSha256": "cf53854dcccdf62a6a8329e4a6c699cde1c73c707981c9afb370b47da5c2b1e3",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeServerCard.vue",
+      "sha256": "6724f78b79de2bebfada23e16cf4808d8a44eb9ebef509853973129808e079de",
+      "stylesSha256": "834ec32b8d890899522b937bfdcde327ec34cebd1213846571c96fdc4c76a51e",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeShaderPackCard.vue",
+      "sha256": "6cbc0eb53f45616931cbe709a6ce34ba0da42f47dd130faae5e2103fa5e063f2",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeUnresolvedFilesDialog.vue",
+      "sha256": "c6c00455174489ec76643df172c09efe7c918c6f1b31df7f6a648b1bc3fc57ab",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeUpstreamBase.vue",
+      "sha256": "1936d1b805580557fa945691fb9f32554b05cf4ea4cbc42fedc813500ebf7ea7",
+      "stylesSha256": "79f7e0636305bd84ef882b47ad7124f95d79b3088b87ab8e5687c1b43bb64305",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeUpstreamCurseforge.vue",
+      "sha256": "50885289c4af105320eceee06b86353222907893759290e4078952619890f8fc",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeUpstreamFeedTheBeast.vue",
+      "sha256": "029fe79076e4b63b907e6226ed8e483f0d2d4e25932d617efcf8fae9d3a2d335",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeUpstreamHeader.vue",
+      "sha256": "3811c50229b428a71ac9b1fe642e67075ce0a4f70fcc7e9e1d3c0fc58d48ab0e",
+      "stylesSha256": "5848d7afbae518401b9170dc56d4d24b818e7c6a452274d6c1110c076f2a067d",
+      "brandingOnly": false,
+      "approvedSha256": "be705c2d810b7d5afef5634c9663e901b43890e75ae4d80f47fccce108a2da83",
+      "approvedReason": "用户要求移除整合包市场：导航入口、市场路由、大屏整合包浏览及详情入口；保留现有实例与本地导入。"
+    },
+    {
+      "path": "src/views/HomeUpstreamModrinth.vue",
+      "sha256": "435f0699c58afe875f85f5b9463da45ab836b5218941c3923bd4bceec4afd693",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeUpstreamVersion.vue",
+      "sha256": "85260ba37101b4462ba8b6a5f0e4fd4e1bb0502086d240f5fa84e1a2c6733b83",
+      "stylesSha256": "f0c6cc929155c88dd7a79730701f84ae2a0cbc11fd89593053b8608be24731ee",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/HomeWorldCard.vue",
+      "sha256": "51bfcc4753e9c5976c6f6878c5b56bffe215bd3525e8779621cf902a977ab800",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/Me.vue",
+      "sha256": "6d9ec2f9f3bc47838ea4331a586cea7e10c61f17ac50f021d4610177379916fa",
+      "stylesSha256": "22de6b0dcabf6331be1ef1f9787ee4f28b959858eeef221614e632c9f408aec0",
+      "brandingOnly": false,
+      "approvedSha256": "93885a1b339423b4091a660880c5d698b94ff6dd693a00de1ad0d01bca5af2ce",
+      "approvedReason": "用户要求删除新闻功能：移除轮播、新闻源调用和相关样式，保留实例管理",
+      "approvedStylesSha256": "c2b1e61d4adc8f4a8cd68138113c6cd6a8773115c47445acfe6707c36cbe4ab7"
+    },
+    {
+      "path": "src/views/MeProfilePanel.vue",
+      "sha256": "99f69890271c168695e71b9a123a08472caaa18189c95cda2a2022f2b0abd313",
+      "stylesSha256": "c78345b164150ac31ef6ada233c3abf6f069f4e45df303ba335069de206d93ce",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/Mod.vue",
+      "sha256": "55b49f6333c0e423eaa0d91da0706f902af599a3902fa876441ad5528b8aa0ee",
+      "stylesSha256": "1be37ef151c09e2375d041263ac7534b0a988301185fe9300874f0dd5aea688e",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ModActions.vue",
+      "sha256": "705c02a0a5a0cc6cddb93ae28b7597b1b88d866e59f8fcd049c34b945e3a6aea",
+      "stylesSha256": "043e1754f5a0bbeffd9478931668c40a9df5f26809515f663fa550d89e586d8d",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ModDetailOptifine.vue",
+      "sha256": "4dc67ecb8b729bb02d0f78da8af70a82ba3a74d185726e413f017b8b6e3a5bcd",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ModDetailResource.vue",
+      "sha256": "537285e8788a3cbe274b8b42ab8489418618e30a856dcba951a02d229e2abec9",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ModDuplicatedDialog.vue",
+      "sha256": "64af503788de7b037da6780703b4480cfb0d1136452eb2a782b120f3751085f4",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ModExtension.vue",
+      "sha256": "23e3bef0bae1658f64b75e8b5071e71a45ebf831cbb930fad17cadbe759751ef",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ModGroupEntryItem.vue",
+      "sha256": "678911da807603b1c7aab1dcd5cd59d46095496eff4d39ae21c843e528e4a840",
+      "stylesSha256": "3c0db17fba2173240df3b0f330c19b13b8a32751c6268aaa07d1837e9bdd95d8",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ModGroupSelectDialog.vue",
+      "sha256": "e76f21ade4d92210113f55b15c3b22d8bdf1003f35c3fc7eff58fa646fd314b7",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ModIncompatibileDialog.vue",
+      "sha256": "f61e26a5ab9b58d2965c7f5a15a53b926c5bb568c44108d940e416606055ba72",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ModItem.vue",
+      "sha256": "61b0a3c9badf46525fa9210507eb16c68a1ce6ac5e68bba95f86994ef3512bd3",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ModLabels.vue",
+      "sha256": "4d4a84298e8b3c61d3530b92e244f40017b99009ecd662da512f0d278b46f65a",
+      "stylesSha256": "9de2996c06eadfbf2f173a52dd6d8b0351fb8322edcf2238ab8aa8c38da78a79",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ModOptionsPage.vue",
+      "sha256": "98a92e6e5b67fe3178dd5bb6f9d3aaecbc24439af2eb6d9bf2a9a86a3f833280",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/Multiplayer.vue",
+      "sha256": "5d69a78fd9cda8c85b1acdd1ff18e0039c5a6f5477435ef1a85bb7951c526395",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false,
+      "approvedSha256": "d5bdaa6a533c166e4fd6a3f9e020ecc5bbfa74dee1b1d1e29e0de2936b28310d",
+      "approvedReason": "2026-10-23 user authorized TORA service migration and removal of paid or object-storage features"
+    },
+    {
+      "path": "src/views/MultiplayerBilling.vue",
+      "sha256": "336c6c0f55db0ea8499bedb61657e880805ce7ed798dde537afd7dcea1507412",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/MultiplayerDesktop.vue",
+      "sha256": "becdd184a41fd47f540f3bf2e8217a9229e913625e21d9a4d5c80b865dff8cf1",
+      "stylesSha256": "28bcc5d7763ac7f708cecc277821ff6faeeb489ad2b386b5f5ae75e9580fde8c",
+      "brandingOnly": false,
+      "approvedSha256": "9a127ee447fb641b7a7adadb744c419dda8991c4557f8a03003802f707c97387",
+      "approvedReason": "2026-10-23 user authorized TORA service migration and removal of paid or object-storage features"
+    },
+    {
+      "path": "src/views/MultiplayerDialogInitiate.vue",
+      "sha256": "065c92a005291576ddd4896dc8d8d6bb2ab0a40e7f44d823c590ebec4a0ce1f2",
+      "stylesSha256": "0f27ebd6b21dc7dbea5d38d4379d6d2cbf5fbc56802590b49865e1610bb9019a",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/MultiplayerDialogReceive.vue",
+      "sha256": "126c59c45592a2c2d12be1ce3442bd89d5683137680bfb32c60e88e5940a9a12",
+      "stylesSha256": "23de9d798966d0e8f190621aa5ee8d91b36013066e126031e7bbe790848467c8",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ResourcePack.vue",
+      "sha256": "4e69b5e64f530f1f789d89e9270302ee0c2041880f3b5609972db0e4a78b118e",
+      "stylesSha256": "a5bacb34377e3622064d673a237d3ddb13ed0d41ffad33b89e932d3681b2f683",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ResourcePackActions.vue",
+      "sha256": "a5e2a2abe4611fe850cfca41f5337020b268e971f3a5a537018c591d4d36c00e",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ResourcePackDetailResource.vue",
+      "sha256": "6c2034cb6d4f071e92b412150a0876db74c888281c0dff24f6dd590f2a7d1edd",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ResourcePackExtension.vue",
+      "sha256": "2c944f4fe32ad6864c2feef587f1103bd91ffe6829634a129e41593c465d6352",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ResourcePackItem.vue",
+      "sha256": "4e9c08e39ea43ea6d7a0902612c1bd9872756c56c99f07b697ce7008d7201c56",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/Save.vue",
+      "sha256": "305cd55623878bfd91598f7f9f1b1fc2afc81d36d580d401fe1a0146f8b81bf1",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SaveActions.vue",
+      "sha256": "5b9875bf0740fec6c63524d74fc5fdaff2f5f9403865f5882f2bba18f653b78c",
+      "stylesSha256": "043e1754f5a0bbeffd9478931668c40a9df5f26809515f663fa550d89e586d8d",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SaveDetail.vue",
+      "sha256": "d896d5a6c6e1c0a0fdc994630a2faaebe0b2e9818714e3cc0326547ea693cf40",
+      "stylesSha256": "59a2d21dfe365aae8b9a2eed7a76611b6cbb47c35c9dcecbf4689d1bb6d38f3f",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SaveExtension.vue",
+      "sha256": "3c601e1e009e03a5dc17c70bec015eba9feeee4025f3a8e5969b64fbe7b027f3",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SaveItem.vue",
+      "sha256": "4a6db82496c592ec9d112955a302e81d592f19d455a30f3238c7a7be74a76700",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SaveTargetSelect.vue",
+      "sha256": "aec78292d13b3e1b9dcd83a07edec23baa4c70166035e77ca5094998db34505f",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/Setting.vue",
+      "sha256": "579f838dca88cff00e15e46fcd472d00f3c4f8d689aea1da6354835bc4064749",
+      "stylesSha256": "fe00dafdbc3f302cdf3d63b9413cb0e98ff4e5118df30da13be924dbe85f88a9",
+      "brandingOnly": false,
+      "approvedSha256": "91cde98bb5cb398fdec2e76fbeb2f6f16463de43af02146f66ee005a3d195b0f",
+      "approvedReason": "用户要求移除 AI Agent API Key、模型、Endpoint 三项设置；清理旧配置定位入口，保留内置免费 AI 服务。"
+    },
+    {
+      "path": "src/views/SettingAbout.vue",
+      "sha256": "594433076dbf2c273fa8425bb70923d22b72688dabf5a96fc29e0060648ffa6c",
+      "stylesSha256": "40c88327ecd844bff1a3af65c2c26032ae1c43cb689e13f52706cd40d5862376",
+      "brandingOnly": true
+    },
+    {
+      "path": "src/views/SettingAdvanced.vue",
+      "sha256": "0d5f05e410253d024561b4045dbf9d8d3473e3d0dc7ae8c0ddac5db3f430ab1f",
+      "stylesSha256": "f237cf4c4b8d5bd4cde2c863fac2a6787c14febb72efb6a9bac1213b85abe372",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SettingGeneral.vue",
+      "sha256": "3f9e5913d5e38d64c339cb7253fff13cc9fb534ffd1c669f976a4d63ffff774f",
+      "stylesSha256": "f35ea74f47cfaca292af526cfb60ad662a5da438887bdc5028b90a872f89a59c",
+      "brandingOnly": false,
+      "approvedSha256": "42d794f8191bb32146b2d031e28dffc68c01d4f26e552dd2fd98d81ce4260435",
+      "approvedReason": "用户要求移除 AI Agent API Key、模型、Endpoint 三项设置；清理旧配置定位入口，保留内置免费 AI 服务。"
+    },
+    {
+      "path": "src/views/SettingGlobal.vue",
+      "sha256": "535d187d6c3b9845d4afeaacca3cfa3a62d601f1c76f2a7f9a0dfaf74e20c7f4",
+      "stylesSha256": "f237cf4c4b8d5bd4cde2c863fac2a6787c14febb72efb6a9bac1213b85abe372",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SettingGlobalUI.vue",
+      "sha256": "7b026443a84a09a8535dfb4db64cc589af775af8ce2408670465b1c179fe503f",
+      "stylesSha256": "ec5521b17083c1a95e5c90fb5b0470a7204f6a57d1274e947feaa2febd02e770",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SettingJavaMemory.vue",
+      "sha256": "392f91c64641052d745cac84dfca55d8d0ba2b7d4e6b3f6741e5774721e3a696",
+      "stylesSha256": "fb5a11497f95a167f020555d66fb742600b993701a823e69950c2c11d1e1090c",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SettingJavaMemoryAssign.vue",
+      "sha256": "34f9c9820343f7586e1414d1eef8a288f8eae7757b8d7643da9a675365335150",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SettingMigrationDialog.vue",
+      "sha256": "d7514a6d0012a5e323a288909f98dcdc7bc3420a31e64ae3d4088de8be68e2d5",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SettingNetwork.vue",
+      "sha256": "6994dfdc9ac8d4f6490584bc15156d5fda635c507d1057d3368639fec6508355",
+      "stylesSha256": "f7b7071fbef4df3e0fcb3f4aac3dd303c27f37cbd0243bb7af99171bf3b3dbc0",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SettingUpdate.vue",
+      "sha256": "5de91af72e457994c5b6dc460ba36b50734a27c7fb12d1593256cbcef5f1ee11",
+      "stylesSha256": "f237cf4c4b8d5bd4cde2c863fac2a6787c14febb72efb6a9bac1213b85abe372",
+      "brandingOnly": false,
+      "approvedSha256": "930540bc0bfce97b077e8ced753f2657c3e63f89ab8fd28deec23a086eb31b64",
+      "approvedReason": "2026-10-23 user authorized TORA service migration and removal of paid or object-storage features"
+    },
+    {
+      "path": "src/views/SettingUpdateInfoDialog.vue",
+      "sha256": "1aeb5a90dacf827165ace86ca2e64f04109bf4fbcfb9779c078dfb67025510d9",
+      "stylesSha256": "d7426e5d2b3c8ec767c7a47f3b8f35b77f46c8a2ca013909697e5b5e96b51854",
+      "brandingOnly": false,
+      "approvedSha256": "4484e2a59d881655fa8fbd07ac7099a52ac5c894e7b37c6525391c39ac05c840",
+      "approvedReason": "2026-10-23 user authorized TORA service migration and removal of paid or object-storage features"
+    },
+    {
+      "path": "src/views/Setup.vue",
+      "sha256": "028608bcbd79f7bb1ea7207dd36802833e8d6f6c9c46574fc64d8babaf05afe2",
+      "stylesSha256": "42195fd8f0d6d5aeac8c9fb575c0a560176c70988cdcdac06333a0e9859af8ba",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SetupAccount.vue",
+      "sha256": "90676047d340582a76d0e96bcf8df1ee00853967dc209b7accfec4bd680e1f11",
+      "stylesSha256": "5168519eb9231199097c07af4257c8b5bc497971ac1a5d8a8f84efe5322cf7df",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SetupAppearance.vue",
+      "sha256": "de0bccdcb5f7ff703df37ed8f3fe7e222995e402ee20f06bc9b73db747d1cf47",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SetupDataRoot.vue",
+      "sha256": "4cd4d468a223c8d8f0e8882bcfc314ce8c5470422c5961527b631a78904306f4",
+      "stylesSha256": "bc86625f0d97c3263519546da6a10962cab3212284f357e94afc35b14ca0d65f",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SetupFooter.vue",
+      "sha256": "559c2bc8ba1954881aa196ccc5cc374259a5a8397119804d04a73e7a28f53f6a",
+      "stylesSha256": "3d25fe37da8f2282b794ef7fe1c8f836a957dcee6f3ee4cb061937a3ef464854",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/SetupLocale.vue",
+      "sha256": "987d4ca7ce0842c5c15cd0b45074bbf91e2e339047cad8849c6121cddb4de6b8",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ShaderPack.vue",
+      "sha256": "954a63891149a0cb251ba0a4d3f90da023eb7f1f04c5878ea4bfdca415f6206f",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ShaderPackActions.vue",
+      "sha256": "f4dc862df51a71d5882c18caf138f1637111189d64d553387d30ce4e15906b37",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ShaderPackDetailResource.vue",
+      "sha256": "2a14519db653ee5c24e8be5982c5ca7b32f4f8050c208bc272826267eab386ee",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ShaderPackExtension.vue",
+      "sha256": "9a17825402b758614bb14c416ca806110687d0a70e3363ea57c2d06d767c1e7b",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/ShaderPackItem.vue",
+      "sha256": "9fcdda7ee40ccc3d192ec28be054a8aeb7bb4a561c940fd69b054700d3ecc538",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/Store.vue",
+      "sha256": "91892e27fca37710ee9f1c9ee349cfb19313ab389e7cb22d871be44549ef9363",
+      "stylesSha256": "b601701860488b651b82c43f7990943b3256125c72b4c309eb124c242b20dbbb",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/StoreEntry.vue",
+      "sha256": "e5b557e24daeffa5e36ca91bc54ce3db04cd452351a99415b10337a58b72f6ae",
+      "stylesSha256": "6b1bba80f1b0ecb5c5420440e442a698b1cf5ddb85235d43c9eb644d5967b5fe",
+      "brandingOnly": false,
+      "approvedSha256": "b98b213ff3f500a839da10d44efac879b9d9c8bc2607f44adc4a668356c7d27a",
+      "approvedReason": "用户要求修复 CurseForge API Key 缺失；未配置时禁用来源并显示原因，保留原布局。"
+    },
+    {
+      "path": "src/views/StoreProjectCurseforge.vue",
+      "sha256": "8fe17c1675d375f8dfb2b09e2f5a78d55dc40c551859b0d4db5495a5537255f5",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/StoreProjectFeedTheBeast.vue",
+      "sha256": "85262e9585a9b5fba610dcca02799a786ddf1e530cbe42b72a9f769e220b02e5",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/StoreProjectModrinth.vue",
+      "sha256": "2280f1cd31b55f18c4ba57692c296b0079136c471652eab4c546d53be4865678",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/bigPicture.css",
+      "sha256": "35f522443e4cd4bfb0148917548f041650d8d5aba835ee79cf155f395164106f",
+      "stylesSha256": null,
+      "brandingOnly": false
+    },
+    {
+      "path": "src/views/gamepad.css",
+      "sha256": "62ec7f6e692acf36e1dd895597099b592604873c8cd6cb5ff702dfed6ab15ee0",
+      "stylesSha256": null,
+      "brandingOnly": false
+    },
+    {
+      "path": "src/vuetify.ts",
+      "sha256": "b581a03398c545a0e6e303927b478cddf30b96e2ef3f608efbfa757dab67e924",
+      "stylesSha256": null,
+      "brandingOnly": false,
+      "approvedSha256": "ff76cb6c48819433837bb127afe1ee4b146ac70d74b5d4a0e412429c8571aa59",
+      "approvedReason": "用户要求与 XMCL 形成视觉差别但保留布局；优化启动区、状态信息、卡片材质和标题层级。"
+    },
+    {
+      "path": "src/windows/browser/AppCard.vue",
+      "sha256": "e09881b2c076dd53ef585462b43c440eb0e9daa8de1a18fae877bd759097218b",
+      "stylesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "brandingOnly": true
+    },
+    {
+      "path": "src/windows/browser/Browse.vue",
+      "sha256": "a6fe0f97cb6df2dd2d7f8278a497e3f27a06e59385898035eb1819d4971fb6dd",
+      "stylesSha256": "92241ee7d725facef093575d33260acb69c698b84ff68d436b551e0477538f00",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/windows/logger/App.vue",
+      "sha256": "066dc276d1b8e64037dbef60164ef5e2d8e8c5b4551984974615b06845b1c68c",
+      "stylesSha256": "4aaaca55297b22a8affbdd0438d527e34ff6d34b6f8afe975ab437ab354f490e",
+      "brandingOnly": false
+    },
+    {
+      "path": "src/windows/main/App.vue",
+      "sha256": "3ae009b005fff05282f0d5c487a14e578c31f5a130ac9d72880e002d5e628e3d",
+      "stylesSha256": "eb82055bf3cf510d94a43eb4fb3a035b8d5b225f2149ef67a5af24455be7166d",
+      "brandingOnly": false,
+      "approvedSha256": "21e505717149cae121a26f30d241abacd3335a6c49015eb7b61233453cffde7f",
+      "approvedReason": "用户要求删除 Minecraft Together，并修复设置页挤压顶部窗口栏导致导航错位；保留本轮修改前已有样式。"
+    },
+    {
+      "path": "src/windows/main/router.ts",
+      "sha256": "0b66f9a4d08b3efee6ec0626ba10a62bf80faeade2b0be3b0dfbce169bd12ba3",
+      "stylesSha256": null,
+      "brandingOnly": false,
+      "approvedSha256": "ee6851142dc17fdb2402c62aa64cf3c322665716c8cf23b21560ffff439c888a",
+      "approvedReason": "用户确认社区首版仅添加导航入口和独立页面，接入现有橙色指示条动画。"
+    },
+    {
+      "path": "src/windows/migration/App.vue",
+      "sha256": "520051d0d7ccae40c147061669539b9b99e25a9d897f4ceab2eeb8eb1e2cadd2",
+      "stylesSha256": "36892b6f71308dd7b0ee15b17b425bfe6d4f77234835bdd072b1bbe41aae802e",
+      "brandingOnly": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[Unit]
+Description=Consistent private TORA platform database backup
+After=tora-platform.service
+[Service]
+Type=oneshot
+User=tora-platform
+Group=tora-platform
+ExecStart=/usr/bin/python3 -B /opt/tora-platform/backup.py
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/tora-platform /var/backups/tora-platform
+UMask=0077
+MemoryMax=128M

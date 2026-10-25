@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TORA Minecraft Launcher</title>
+    <link rel="stylesheet" href="./assets/google.font.css">
+    <link rel="stylesheet" href="./assets/preload.css">
+    <script src="http://launcher/flights"></script>
+    <style>
+        .unloaded {
+            background-color: rgb(18, 18, 18);
+            height: 100vh;
+            width: 100vw;
+            min-width: 100vw;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            overflow: hidden;
+        }
+        .unloaded .startup-logo {
+            display: block;
+            width: 96px;
+            height: 96px;
+            max-width: 20vw;
+            max-height: 24vh;
+            object-fit: contain;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .unloaded { animation: none; }
+        }
+        @keyframes pulse {
+            0%,
+            100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+            }
+        }
+    </style>
+</head>
+
+<body class="overflow-hidden unloaded">
+    <div id="app">
+        <img class="startup-logo" src="./assets/tora.png" width="96" height="96" alt="TORA Minecraft Launcher Logo">
+    </div>
+    <script type="module" src="./windows/main/index.ts"></script>
+</body>
+
+</html>

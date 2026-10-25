@@ -1,0 +1,5 @@
+# Development-only values. Production uses Wrangler Worker Secrets.
+TORA_SESSION_SECRET="replace-with-a-random-string-at-least-32-characters"
+TORA_MULTIPLAYER_TICKET_SECRET="replace-with-an-independent-random-string"
+TORA_DEEPSEEK_API_KEY=""
+TORA_AI_ALLOWED_ACCOUNTS=""

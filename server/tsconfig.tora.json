@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.workers.json",
+  "include": [
+    "tora/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.test.ts"
+  ]
+}
